@@ -1,0 +1,9 @@
+default_params: &default_params
+  - separator: " "
+  - postproc_fn: "seq2seq.data.postproc.strip_bpe"
+
+metrics:
+  - class: LogPerplexityMetricSpec
+  - class: BleuMetricSpec
+    params:
+      <<: *default_params
