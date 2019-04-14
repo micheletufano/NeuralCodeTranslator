@@ -9,7 +9,7 @@ The set of known transformation defines the behavior of the model, and the expec
 - Refactoring (original -> refactored);
 - Code Review (original -> reviewed);
 - Code Smells (smelly -> clean);
-- literally anything you can come up with.
+- any other types of changes.
 
 ## Code Transformations
 We formally define *code transformation* as a pair of code fragments (*code_before*, *code_after*), where *code_after* is the code obtained after some particular changes applied to *code_before*. The types, locations, and number of changes applied to the code can vary. There can be many different types of code transformations, such as: bug-fixes, refactorings, and many other maintenance operations. These code transformations can be mined from source code repositories, issue trackers, and code review systems. We provide mined code transformations:
@@ -45,7 +45,7 @@ Next, download the content of this repository.
 `seq2seq` implements an NMT model comprising an Encoder and Decoder, both are RNN that are trained jointly. The Encoder encodes a sequence of terms *x* into a vector representation *h*, while the Decoder decodes the representation *h* into  a sequence of terms *y*, representing the transalation of *x*.
 
 The model can be configured in terms of number of layers, units, type of RNN cells, optimizer, etc.
-We provide 20 sample configurations in the `config` folder, 10 for small-sized sentences (no longer than 50 tokens), and 10 for medium-sized sentences (no longer than 100 tokens). This table provides an overview of the configurations:
+We provide 20 sample configurations in the `seq2seq/configs` folder, 10 for small-sized sentences (no longer than 50 tokens), and 10 for medium-sized sentences (no longer than 100 tokens). This table provides an overview of the configurations:
 
 | ID | Embedding | Encoder #Layers |  Encoder #Units | Decoder #Layers | Decoder #Units | Cell Type | 
 | --- | --- | --- | --- | --- | --- | --- | 
