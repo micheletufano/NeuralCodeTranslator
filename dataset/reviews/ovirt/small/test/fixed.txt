@@ -1,0 +1,445 @@
+public static void METHOD_1 ( org.ovirt.engine.core.compat.Guid vmId ) { TYPE_1 . METHOD_2 ( new TYPE_2 ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) , vmId ) , VAR_1 , VAR_2 , new TYPE_3 ( ) , true , false , null ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { METHOD_2 ( VAR_1 , true ) ; METHOD_3 ( ) ; METHOD_4 ( METHOD_5 ( ) ) ; METHOD_7 ( resource . get ( ) ) ; } 
+private TYPE_1 METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 ) { return new TYPE_1 ( new TYPE_2 ( VAR_1 , null , METHOD_2 ( VAR_1 , STRING_1 , 1 ) . get ( 0 ) ) , null ) ; } 
+protected boolean METHOD_1 ( ) { return METHOD_3 ( getParameters ( ) . METHOD_4 ( ) , getReturnValue ( ) . METHOD_5 ( ) ) ; } 
+private boolean METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 , org.ovirt.engine.core.compat.Guid VAR_2 ) { TYPE_1 validator = METHOD_2 ( VAR_1 , VAR_2 ) ; return validate ( validator . METHOD_3 ( ) ) ; } 
+public TYPE_1 METHOD_1 ( TYPE_2 VAR_1 , TYPE_3 VAR_2 ) { return TYPE_4 . METHOD_2 ( VAR_1 , VAR_2 , false ) ; } 
+public java.lang.String METHOD_1 ( ) { return VAR_1 . METHOD_1 ( ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { super . METHOD_1 ( ) ; dao = VAR_1 . METHOD_3 ( ) ; VAR_2 = dao . get ( VAR_3 ) ; VAR_4 = dao . get ( VAR_5 ) ; } 
+public void METHOD_1 ( ) { if ( ( getEntity ( ) ) != null ) { super . METHOD_1 ( ) ; } } 
+private TYPE_1 getConstants ( ) { if ( ( constants ) == null ) { constants = org.ovirt.engine.ui.uicompat.ConstantsManager.getInstance ( ) . getConstants ( ) ; } return constants ; } 
+public void METHOD_1 ( ) { cmd = org.mockito.Mockito . METHOD_2 ( new TYPE_1 ( new TYPE_2 ( VAR_1 ) , null ) ) ; METHOD_3 ( cmd ) ; TYPE_3 . METHOD_4 ( cmd . validate ( ) ) ; } 
+public TYPE_1 METHOD_1 ( org.ovirt.engine.core.compat.Guid id ) { return getEntity ( VAR_1 class , VAR_2 , new org.ovirt.engine.core.common.queries.IdQueryParameters ( id ) , id . toString ( ) ) ; } 
+public void METHOD_1 ( org.ovirt.engine.core.common.businessentities.VDS vds ) { try { METHOD_2 ( vds ) ; } finally { TYPE_2 . METHOD_3 ( vds . getId ( ) , VAR_1 , true ) ; } } 
+public TYPE_1 METHOD_1 ( TYPE_2 action ) { return METHOD_2 ( VAR_1 , new TYPE_3 ( VAR_2 , METHOD_3 ( ) . METHOD_4 ( ) . getId ( ) , false ) , action , new TYPE_4 ( VAR_3 , VAR_4 . IdQueryParameters class ) ) ; } 
+public void METHOD_1 ( TYPE_1 VAR_2 ) { this . VAR_2 = VAR_2 ; } 
+public void METHOD_1 ( ) { VAR_1 . METHOD_2 ( ( ( STRING_1 + ( name ) ) + STRING_2 ) ) ; VAR_2 = true ; METHOD_3 ( METHOD_4 ( ) ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( METHOD_3 ( ) ) ; resource . METHOD_4 ( METHOD_5 ( ) ) ; TYPE_1 VAR_2 = resource . get ( ) ; assertEquals ( VAR_3 , VAR_2 . METHOD_7 ( ) ) ; } 
+public void METHOD_1 ( ) { TYPE_1 VAR_1 = dao . get ( VAR_2 . getId ( ) ) ; VAR_1 . setId ( STRING_1 ) ; dao . METHOD_4 ( VAR_1 ) ; METHOD_5 ( TYPE_2 . METHOD_6 ( VAR_2 , VAR_1 ) , VAR_2 ) ; } 
+public static TYPE_1 METHOD_1 ( TYPE_2 vm , org.ovirt.engine.core.compat . Version VAR_1 , java.util.ArrayList < TYPE_3 > VAR_2 , org.ovirt.engine.ui.uicommonweb.models.EntityModel VAR_3 ) { TYPE_1 instance = new TYPE_1 ( vm , VAR_1 , VAR_2 , VAR_3 ) ; instance . METHOD_2 ( ) ; return instance ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { METHOD_2 ( METHOD_3 ( ) ) ; METHOD_4 ( 1 , false , false ) ; VAR_1 . METHOD_5 ( ) ; METHOD_6 ( resource . get ( ) , 1 ) ; } 
+public TYPE_1 < java.util.Map < java.lang.String , java.lang.Object > > METHOD_1 ( java.util.Map VAR_1 , java.util.Map VAR_2 , java.util.Map VAR_3 ) { return VAR_4 . METHOD_2 ( VAR_1 , VAR_2 , VAR_3 ) ; } 
+public TYPE_1 METHOD_1 ( org.ovirt.engine.core.common.businessentities.StorageDomain object ) { java.lang.Integer VAR_1 = object . METHOD_2 ( ) ; return VAR_1 == null ? null : TYPE_1 . valueOf ( VAR_1 ) ; } 
+public void METHOD_1 ( ) { if ( ( getWindow ( ) ) != null ) { return ; } TYPE_1 VAR_1 = new TYPE_1 ( this , getEntity ( ) ) ; METHOD_2 ( VAR_1 ) ; } 
+protected boolean validate ( ) { return ( super . validate ( ) ) && ( validate ( METHOD_2 ( ) ) ) ; } 
+public short METHOD_1 ( ) { return ( ( short ) ( METHOD_2 ( ) ) ) ; } 
+public void METHOD_1 ( TYPE_1 < ? extends TYPE_2 > VAR_1 , java.lang.Object sender , TYPE_2 args ) { VAR_2 . METHOD_2 ( model . METHOD_4 ( ) . getEntity ( ) ) ; } 
+protected TYPE_1 METHOD_1 ( ) { return getEntity ( new TYPE_2 ( VAR_1 , VAR_2 . IdQueryParameters class ) , false ) ; } 
+public TYPE_1 METHOD_1 ( ) { return null ; } 
+private < TYPE_1 extends TYPE_2 < org.ovirt.engine.core.compat.Guid > > java.lang.String METHOD_1 ( TYPE_1 entity ) { if ( entity instanceof org.ovirt.engine.core.common.businessentities.VDS ) { return STRING_1 + ( ( ( org.ovirt.engine.core.common.businessentities.VDS ) ( entity ) ) . getName ( ) ) ; } return STRING_2 ; } 
+protected boolean METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( getParameters ( ) . METHOD_3 ( ) . getName ( ) ) ; } 
+public void setEntity ( java.lang.Object value ) { super . setEntity ( value ) ; } 
+protected java.util.Map < java.lang.String , TYPE_1 < java.lang.String , java.lang.String > > METHOD_1 ( ) { return TYPE_2 . METHOD_2 ( TYPE_4 . getParameters ( ) . METHOD_3 ( ) . toString ( ) , TYPE_3 . METHOD_4 ( VAR_1 , TYPE_4 . METHOD_5 ( ) ) ) ; } 
+public void METHOD_1 ( java.lang.Integer value ) { this . VAR_1 . METHOD_1 ( value ) ; METHOD_2 ( ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( 0 , 0 , 0 , 1 , 0 , 0 ) ; TYPE_1 VAR_1 = METHOD_3 ( ) ; TYPE_2 . METHOD_4 ( VAR_2 . METHOD_5 ( VAR_1 ) ) ; } 
+public void METHOD_1 ( ) { METHOD_3 ( null ) ; org.ovirt.engine.ui.frontend.Frontend . METHOD_4 ( ) ; } 
+private void METHOD_1 ( boolean VAR_1 ) { VAR_2 . METHOD_2 ( VAR_1 ) ; VAR_4 . METHOD_2 ( VAR_1 ) ; } 
+public void onSuccess ( java.lang.Object VAR_1 ) { setItems ( ( ( TYPE_1 < org.ovirt.engine.core.common.businessentities.VmTemplate > ) ( ( ( TYPE_2 . VdcQueryReturnValue ) ( VAR_1 ) ) . getReturnValue ( ) ) ) ) ; } 
+protected java.lang.String METHOD_1 ( org.ovirt.engine.core.common.businessentities.VM entity ) { return entity . getName ( ) ; } 
+private void METHOD_1 ( final java.util.List < TYPE_1 . VdcQueryType > VAR_1 , final java.lang.Object context ) { for ( TYPE_1 . VdcQueryType VAR_2 : VAR_1 ) { METHOD_1 ( VAR_2 , context ) ; } } 
+public void METHOD_1 ( ) throws java.lang.Exception { METHOD_2 ( METHOD_3 ( ) ) ; METHOD_4 ( ) ; METHOD_6 ( resource . get ( ) , INT_1 ) ; } 
+public void METHOD_1 ( ) { java.util.List < org.ovirt.engine.core.common.businessentities.VDS > result = dao . METHOD_2 ( VAR_1 . getStoragePoolId ( ) , VAR_2 , true ) ; TYPE_1 . METHOD_4 ( result ) ; } 
+private java.lang.String METHOD_1 ( long size ) { if ( ( VAR_2 ) == null ) { VAR_2 = METHOD_2 ( VAR_1 , true , size ) ; } return VAR_2 ; } 
+public java.util.HashMap < org.ovirt.engine.core.compat.Guid , org.ovirt.engine.core.common.businessentities.DiskImage > METHOD_1 ( ) { METHOD_2 ( ) ; return VAR_2 ; } 
+protected org.ovirt.engine.core.common.businessentities.DiskImage METHOD_2 ( org.ovirt.engine.core.compat.Guid VAR_1 ) { return METHOD_2 ( VAR_1 , METHOD_3 ( ) ) ; } 
+private static TYPE_1 < TYPE_2 > METHOD_1 ( TYPE_2 VAR_1 ) { return new TYPE_1 ( VAR_1 , null ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( VAR_1 ) ; TYPE_1 . METHOD_3 ( validator . METHOD_4 ( ) , TYPE_2 . METHOD_5 ( VAR_2 , STRING_1 ) ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( ) ; TYPE_1 VAR_2 = resource . get ( ) ; METHOD_4 ( VAR_2 ) ; } 
+protected final void METHOD_1 ( ) { if ( ( getParameters ( ) ) != null ) { METHOD_2 ( ) ; } } 
+public java.lang.Object Convert ( java.lang.Object source , org.ovirt.engine.ui.frontend.AsyncQuery _asyncQuery ) { if ( source == null ) { return INT_1 ; } return source ; } 
+public java.lang.Object Convert ( java.lang.Object source , org.ovirt.engine.ui.frontend.AsyncQuery _asyncQuery ) { java.util.ArrayList < org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface > VAR_1 = ( ( java.util.ArrayList < org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface > ) ( source ) ) ; return ! ( VAR_1 . isEmpty ( ) ) ; } 
+public TYPE_1 . VdcActionParametersBase getParameters ( TYPE_2 VAR_1 , TYPE_3 entity ) { TYPE_4 < TYPE_3 > parameters = new TYPE_4 ( ) ; parameters . METHOD_1 ( VAR_2 ) ; parameters . METHOD_2 ( map ( VAR_1 , entity ) ) ; return parameters ; } 
+public java.lang.String METHOD_1 ( ) { return VAR_1 ; } 
+protected boolean METHOD_1 ( ) { return TYPE_1 . METHOD_1 ( TYPE_2 . getParameters ( ) . getName ( ) ) ; } 
+public void METHOD_1 ( ) { org.mockito.Mockito.when ( VAR_1 . get ( TYPE_1 . any ( ) ) ) . thenReturn ( null ) ; TYPE_2 . METHOD_2 ( command , VAR_3 ) ; } 
+protected abstract TYPE_1 METHOD_1 ( java.util.List < org.ovirt.engine.core.compat.Guid > VAR_1 ) ; 
+protected boolean METHOD_1 ( ) { return ( TYPE_1 . METHOD_2 ( ) . get ( TYPE_1 . METHOD_3 ( ) . getId ( ) ) ) != null ; } 
+protected boolean METHOD_1 ( TYPE_1 . DiskImage diskImage ) { return validate ( METHOD_2 ( diskImage ) . METHOD_3 ( TYPE_2 . getParameters ( ) . METHOD_4 ( ) ) ) ; } 
+protected TYPE_1 < java.lang.String > METHOD_1 ( ) { TYPE_1 < java.lang.String > value = new TYPE_1 ( ) ; value . setItems ( VAR_1 ) ; value . setSelectedItem ( STRING_1 ) ; return value ; } 
+public TYPE_1 METHOD_1 ( java.util.Map < java.lang.String , java.lang.Object > error ) { this . error = TYPE_2 . METHOD_2 ( error ) ; return this ; } 
+protected TYPE_1 METHOD_1 ( org.ovirt.engine.core.common.businessentities.StorageDomain storageDomain ) { return METHOD_2 ( VAR_1 , new TYPE_2 ( TYPE_3 . METHOD_3 ( ) . getId ( ) , storageDomain . getId ( ) ) ) ; } 
+public static < TYPE_1 extends TYPE_2 < TYPE_3 > , TYPE_3 extends TYPE_4 & TYPE_5 < ? super TYPE_3 > > TYPE_6 < TYPE_1 , TYPE_3 > METHOD_1 ( ) { return new TYPE_6 ( ) ; } 
+public boolean METHOD_1 ( java.lang.String name , TYPE_1 context ) { return ( name == null ) || ( TYPE_2 . METHOD_2 ( name ) ) ; } 
+public void METHOD_1 ( TYPE_1 value ) { this . VAR_1 . METHOD_1 ( value ) ; } 
+public static TYPE_1 METHOD_1 ( java.lang.String VAR_1 ) { VAR_2 = VAR_1 ; if ( ( VAR_3 ) == null ) { VAR_3 = new TYPE_2 ( VAR_4 < java.lang.Integer > METHOD_2 ( VAR_5 ) ) ; } return VAR_3 ; } 
+private TYPE_1 METHOD_1 ( java.lang.String id ) { TYPE_1 VAR_1 = new TYPE_1 ( ) ; VAR_1 . METHOD_2 ( STRING_1 ) ; VAR_1 . METHOD_3 ( METHOD_4 ( id ) ) ; return VAR_1 ; } 
+public void METHOD_1 ( ) { final java.lang.String VAR_2 = VAR_1 . METHOD_2 ( VAR_3 ) ; TYPE_3 . assertEquals ( STRING_1 , VAR_2 ) ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.common.businessentities.StorageDomain VAR_1 ) { return ( ( VAR_1 . METHOD_2 ( ) ) == ( VAR_2 ) ) || ( ( VAR_1 . METHOD_2 ( ) ) == ( VAR_3 ) ) ; } 
+public void METHOD_1 ( TYPE_1 value ) { this . VAR_1 . METHOD_1 ( value ) ; } 
+public void add ( ) { METHOD_1 ( TYPE_1 . METHOD_2 ( ) , VAR_1 , true ) ; } 
+public boolean METHOD_1 ( ) { return ! ( METHOD_2 ( ) ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { org.mockito.Mockito.when ( VAR_1 . METHOD_2 ( vmId , VAR_2 ) ) . thenReturn ( true ) ; TYPE_1 . METHOD_3 ( validator . METHOD_4 ( vmId ) , VAR_3 ) ; } 
+public static < TYPE_1 > TYPE_1 getValue ( TYPE_2 value ) { return VAR_1 < TYPE_1 > getValue ( value , VAR_2 ) ; } 
+public void METHOD_1 ( ) { org.ovirt.engine.core.common.businessentities.network.Network result = dao . METHOD_2 ( VAR_1 , VAR_2 ) ; TYPE_1 . METHOD_3 ( result ) ; TYPE_1 . assertEquals ( VAR_1 , result . getName ( ) ) ; } 
+protected void METHOD_1 ( java.util.Map < java.lang.String , java.lang.Object > VAR_1 , long VAR_2 ) { TYPE_1 VAR_3 = VAR_4 . METHOD_2 ( VAR_2 ) ; VAR_3 . METHOD_3 ( VAR_1 ) ; VAR_3 . METHOD_4 ( ) ; } 
+private void METHOD_1 ( ) { if ( ( VAR_1 ) == null ) { VAR_1 = TYPE_1 . METHOD_2 ( org.ovirt.engine.core.dal.dbbroker.DbFacade.getInstance ( ) . METHOD_3 ( ) . METHOD_4 ( TYPE_2 . METHOD_5 ( ) ) , false , false , true ) ; } } 
+public void METHOD_1 ( java.lang.String VAR_1 ) { VAR_2 . METHOD_2 ( ( VAR_1 != null ? VAR_1 . METHOD_5 ( STRING_2 , STRING_3 ) : STRING_1 ) ) ; } 
+public void METHOD_1 ( java.lang.String id ) { METHOD_5 ( METHOD_2 ( ) . METHOD_3 ( ) . METHOD_4 ( id ) ) ; } 
+public java.lang.Boolean METHOD_1 ( ) throws java.lang.Exception { VAR_1 . METHOD_2 ( java.lang.String . METHOD_3 ( STRING_1 , VAR_2 ) , java.lang.Integer . toString ( VAR_3 . METHOD_4 ( ) ) ) ; return true ; } 
+public void METHOD_1 ( ) { final TYPE_1 iface = TYPE_2 . METHOD_2 ( ) ; VAR_1 . METHOD_3 ( iface , VAR_2 ) ; METHOD_4 ( VAR_3 , iface ) ; TYPE_3 . assertEquals ( VAR_2 , VAR_4 . getValue ( ) . METHOD_5 ( ) ) ; } 
+protected TYPE_2 < TYPE_3 < java.lang.Object > > METHOD_1 ( ) { return TYPE_4 . METHOD_2 ( ) ; } 
+private static TYPE_1 METHOD_1 ( ) { TYPE_1 VAR_1 = new TYPE_1 ( org.ovirt.engine.core.compat.Guid . METHOD_2 ( ) ) ; VAR_1 . METHOD_3 ( true ) ; return VAR_1 ; } 
+public void METHOD_1 ( TYPE_1 value ) { this . VAR_1 . METHOD_1 ( value ) ; } 
+protected void METHOD_1 ( ) { VAR_1 . put ( STRING_1 , TYPE_1 . getParameters ( ) . METHOD_2 ( ) . toString ( ) ) ; VAR_1 . put ( STRING_2 , METHOD_3 ( ) ) ; } 
+private void METHOD_1 ( java.lang.String VAR_1 , java.lang.String action ) { VAR_3 . METHOD_5 ( VAR_5 ) ; } 
+public void setId ( org.ovirt.engine.core.compat.Guid id ) { METHOD_1 ( ) . setId ( id ) ; METHOD_2 ( ) . setId ( id ) ; METHOD_3 ( ) . METHOD_4 ( id ) ; } 
+public java.util.List < TYPE_1 > METHOD_1 ( ) { TYPE_2 VAR_1 = new TYPE_3 ( ) ; return METHOD_2 ( ) . METHOD_3 ( STRING_1 , TYPE_4 . instance , VAR_1 ) ; } 
+protected java.util.Map < java.lang.String , java.lang.String > METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( TYPE_2 . getParameters ( ) . METHOD_3 ( ) . toString ( ) , TYPE_3 . name ( ) ) ; } 
+public void METHOD_1 ( ) throws TYPE_5 { TYPE_1 VAR_1 = new TYPE_1 ( STRING_1 ) ; TYPE_2 VAR_2 = new TYPE_2 ( ) ; TYPE_3 . METHOD_2 ( VAR_2 , VAR_1 ) ; } 
+public void METHOD_1 ( final TYPE_1 VAR_1 ) { VAR_2 . METHOD_1 ( VAR_1 ) ; } 
+protected void METHOD_1 ( ) { super . METHOD_1 ( ) ; if ( ( getEntity ( ) ) != null ) { METHOD_2 ( ) ; METHOD_3 ( ) . METHOD_4 ( ) ; METHOD_5 ( ) ; } METHOD_7 ( ) ; } 
+public boolean METHOD_1 ( ) { return ( this ) == ( VAR_1 ) ; } 
+protected void METHOD_1 ( ) { super . METHOD_1 ( ) ; METHOD_2 ( VAR_1 , VAR_2 ) ; METHOD_2 ( VAR_3 , VAR_4 ) ; METHOD_3 ( ) ; } 
+public void METHOD_1 ( ) { final java.util.List < TYPE_1 > result = dao . METHOD_3 ( ( ( VAR_1 ) + STRING_1 ) ) ; TYPE_2 . METHOD_4 ( result . isEmpty ( ) ) ; } 
+public java.lang.String getValue ( org.ovirt.engine.core.common.businessentities . Network object ) { return object . METHOD_1 ( ) ; } 
+public static < TYPE_1 > TYPE_1 METHOD_1 ( TYPE_2 value ) { return VAR_1 < TYPE_1 > getValue ( value , VAR_2 ) ; } 
+protected < TYPE_1 extends TYPE_2 > TYPE_1 METHOD_1 ( TYPE_1 model ) { TYPE_3 . METHOD_1 ( model , this ) ; return model ; } 
+public java.lang.String METHOD_1 ( TYPE_1 VAR_1 ) { return METHOD_2 ( VAR_1 , null ) ; } 
+public java.lang.String toString ( ) { return java.lang.String . METHOD_1 ( STRING_1 , super . toString ( ) , ( ( getVm ( ) ) == null ? STRING_2 : getVm ( ) . getName ( ) ) , METHOD_3 ( ) , METHOD_4 ( ) ) ; } 
+protected void METHOD_1 ( ) { org.mockito.Mockito.doReturn ( VAR_1 ) . when ( command ) . METHOD_2 ( TYPE_1 . any ( ) , TYPE_1 . any ( ) ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { parameters . setId ( VAR_1 ) ; parameters . METHOD_3 ( VAR_2 ) ; TYPE_1 . METHOD_4 ( command . validate ( ) ) ; } 
+public void METHOD_1 ( TYPE_1 result ) { TYPE_2 VAR_1 = ( ( TYPE_2 ) ( result . METHOD_2 ( ) ) ) ; VAR_1 . METHOD_3 ( ) ; METHOD_4 ( ) ; } 
+private org.ovirt.engine.core.common.businessentities . Network METHOD_1 ( ) { if ( ( network ) == null ) { network = TYPE_1 . METHOD_2 ( ) . get ( METHOD_3 ( ) . METHOD_4 ( ) ) ; } return network ; } 
+private void METHOD_1 ( org.ovirt.engine.core.common.businessentities.VM vm ) { org.mockito.Mockito.when ( VAR_1 . get ( VAR_2 . Matchers < org.ovirt.engine.core.compat.Guid > any ( VAR_3 . Guid class ) ) ) . thenReturn ( vm ) ; } 
+public java.util.Map < java.lang.String , java.lang.Object > METHOD_1 ( int VAR_1 ) ; 
+protected void METHOD_1 ( ) { METHOD_3 ( ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( ) ; METHOD_3 ( ) ; METHOD_4 ( ) ; METHOD_5 ( VAR_1 ) ; } 
+public void METHOD_1 ( ) { java.util.List < TYPE_1 > VAR_1 = dao . METHOD_2 ( VAR_2 ) ; TYPE_2 . assertEquals ( 2 , VAR_1 . size ( ) ) ; } 
+public void METHOD_1 ( java.lang.String storage ) { METHOD_2 ( ) . METHOD_1 ( storage ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { VAR_1 . METHOD_2 ( ( ( TYPE_1 ) ( returnValue ) ) ) ; } 
+public void METHOD_1 ( java.lang.Integer value ) { VAR_1 = value ; } 
+public static < TYPE_1 > TYPE_2 < TYPE_1 > METHOD_1 ( TYPE_3 value , org.ovirt.engine.core.compat . Version version , TYPE_1 returnValue ) { return new TYPE_2 ( value , version . toString ( ) , returnValue ) ; } 
+public static void METHOD_1 ( final TYPE_1 . VdcActionType VAR_1 , final java.util.ArrayList < TYPE_1 . VdcActionParametersBase > parameters ) { org.ovirt.engine.ui.frontend.Frontend . METHOD_1 ( VAR_1 , parameters , null , null ) ; } 
+public java.lang.String getValue ( java.lang.Object object ) { return ( java.lang.String.valueOf ( ( ( org.ovirt.engine.core.common.businessentities.VM ) ( object ) ) . METHOD_1 ( ) ) ) + STRING_1 ; } 
+public org.ovirt.engine.core.compat.Guid METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 , TYPE_1 VAR_2 , TYPE_2 . VdcActionType VAR_3 , TYPE_3 VAR_4 , org.ovirt.engine.core.compat.Guid ... VAR_5 ) { return super . METHOD_1 ( VAR_1 , VAR_2 , VAR_3 , VAR_4 , VAR_5 ) ; } 
+public void METHOD_1 ( ) { TYPE_1 VAR_1 = METHOD_2 ( ) ; org.mockito.Mockito.when ( VAR_1 . getValue ( VAR_2 , VAR_3 ) ) . thenReturn ( VAR_4 ) ; TYPE_2 . METHOD_4 ( VAR_1 ) ; } 
+public void METHOD_1 ( ) { VAR_3 = new TYPE_1 ( METHOD_3 ( ) , METHOD_4 ( ) ) ; VAR_4 = new TYPE_2 ( VAR_3 ) ; } 
+public boolean METHOD_1 ( ) { return ( METHOD_2 ( ) . METHOD_3 ( ) ) != null ; } 
+public void METHOD_1 ( ) { final long VAR_1 = 0 ; final TYPE_1 VAR_2 = new TYPE_1 ( ) ; TYPE_2 . assertEquals ( VAR_1 , VAR_2 . METHOD_2 ( ) ) ; } 
+public void METHOD_1 ( boolean VAR_1 ) { VAR_2 . METHOD_2 ( ( ! VAR_1 ) ) ; } 
+public void METHOD_1 ( java.lang.String value ) { this . VAR_1 . METHOD_1 ( value ) ; } 
+public java.lang.String METHOD_1 ( java.lang.String VAR_1 ) { return METHOD_2 ( ) . METHOD_1 ( VAR_1 ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { } 
+TYPE_1 vm ( ) ; 
+public void METHOD_1 ( ) { METHOD_2 ( true , true , null , null ) ; TYPE_1 . METHOD_3 ( validator . METHOD_4 ( ) , TYPE_2 . METHOD_5 ( VAR_1 ) ) ; } 
+protected TYPE_1 METHOD_1 ( TYPE_2 VAR_1 ) { return new TYPE_1 ( VAR_1 , TYPE_4 . METHOD_2 ( ) ) ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.compat.Guid vmId ) { return ! ( METHOD_2 ( vmId ) . isEmpty ( ) ) ; } 
+public java.lang.Object METHOD_1 ( java.lang.Object source , org.ovirt.engine.ui.frontend.AsyncQuery _asyncQuery ) { return source != null ? ( ( java.lang.Integer ) ( source ) ) : 1 ; } 
+public java.lang.Boolean METHOD_1 ( ) throws java.lang.Exception { VAR_1 . METHOD_2 ( ) ; return true ; } 
+boolean validate ( ) ; 
+private TYPE_1 METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 , org.ovirt.engine.core.compat.Guid VAR_2 ) { return METHOD_2 ( ) . addValue ( STRING_1 , VAR_1 ) . addValue ( STRING_2 , VAR_2 ) ; } 
+private java.lang.String METHOD_1 ( TYPE_1 VAR_1 , org.ovirt.engine.core.compat.Guid VAR_2 ) { return METHOD_2 ( VAR_3 , new TYPE_2 ( VAR_1 , VAR_2 , false ) , VAR_4 . String class ) ; } 
+public static java.lang.String METHOD_1 ( java.lang.String VAR_1 ) { try { return TYPE_1 . METHOD_2 ( TYPE_2 . valueOf ( VAR_1 ) ) ; } catch ( java.lang.Exception e ) { return VAR_1 == null ? new java.lang.String ( ) : VAR_1 ; } } 
+public java.lang.String getValue ( org.ovirt.engine.ui.uicommonweb.models.EntityModel < org.ovirt.engine.core.common.businessentities.VM > VAR_1 ) { return VAR_1 . getEntity ( ) . getName ( ) ; } 
+private void METHOD_1 ( TYPE_1 model ) { METHOD_2 ( model . METHOD_3 ( ) ) ; METHOD_2 ( model . METHOD_3 ( ) . METHOD_4 ( ) ) ; assertEquals ( VAR_1 , model . METHOD_3 ( ) . METHOD_4 ( ) . METHOD_5 ( ) ) ; } 
+public void METHOD_1 ( ) { VAR_1 = true ; } 
+protected org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface METHOD_1 ( java.lang.String name ) { for ( org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface iface : METHOD_2 ( ) ) { if ( iface . getName ( ) . equals ( name ) ) { return iface ; } } return null ; } 
+public TYPE_1 METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 VAR_2 = new TYPE_2 ( VAR_3 , VAR_4 . IdQueryParameters class ) ; return METHOD_2 ( VAR_1 , VAR_2 , VAR_5 , new TYPE_3 ( ) ) ; } 
+public TYPE_1 METHOD_1 ( java.lang.String name , java.util.List value ) { if ( ( value != null ) && ( ! ( value . isEmpty ( ) ) ) ) { return METHOD_2 ( name , value ) ; } return this ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.common.businessentities . Network VAR_1 ) { return VAR_1 . METHOD_2 ( ) . equals ( getParameters ( ) . METHOD_3 ( ) . METHOD_4 ( ) ) ; } 
+public void runQuery ( final TYPE_1 . VdcQueryType VAR_1 , final TYPE_2 parameters , final org.ovirt.engine.ui.frontend.AsyncQuery VAR_2 ) { runQuery ( VAR_1 , parameters , VAR_2 , false ) ; } 
+protected void METHOD_1 ( TYPE_1 < TYPE_2 > cmd ) { METHOD_2 ( cmd ) ; org.mockito.Mockito.doReturn ( true ) . when ( cmd ) . METHOD_3 ( ) ; org.mockito.Mockito.doReturn ( null ) . when ( cmd ) . METHOD_4 ( ) ; } 
+public void METHOD_1 ( org.ovirt.engine.ui.frontend.AsyncQuery aQuery ) { aQuery.converterCallback = new org.ovirt.engine.ui.frontend.IAsyncConverter ( ) { public java.lang.Object Convert ( java.lang.Object source , org.ovirt.engine.ui.frontend.AsyncQuery _asyncQuery ) { return source ; } } ; org.ovirt.engine.ui.frontend.Frontend.getInstance ( ) . runQuery ( VAR_1 , new TYPE_1 ( ) , aQuery ) ; } 
+public void METHOD_1 ( TYPE_1 VAR_1 , java.lang.Object sender , TYPE_2 args ) { METHOD_2 ( ) . METHOD_3 ( ( ( java.lang.String ) ( model . METHOD_4 ( ) . getEntity ( ) ) ) ) ; } 
+protected java.lang.String METHOD_1 ( ) { return ( ( METHOD_2 ( ) ) + ( METHOD_4 ( ) ) ) + ( METHOD_5 ( ) ) ; } 
+public TYPE_2 getParameters ( ) { return parameters ; } 
+public TYPE_1 METHOD_1 ( TYPE_1 VAR_1 ) { return METHOD_3 ( VAR_1 , new TYPE_2 ( ) , VAR_3 , new TYPE_3 ( ) ) ; } 
+public TYPE_1 < java.lang.String > METHOD_1 ( java.lang.Object returnValue ) { TYPE_1 < java.lang.String > VAR_2 = new TYPE_2 ( new TYPE_3 ( ) ) ; VAR_2 . METHOD_2 ( ( ( TYPE_4 < java.lang.String > ) ( returnValue ) ) ) ; return VAR_2 ; } 
+private void METHOD_1 ( TYPE_1 VAR_1 ) { VAR_1 . METHOD_2 ( VAR_2 ) ; VAR_1 . METHOD_3 ( VAR_3 ) ; VAR_1 . METHOD_5 ( VAR_5 ) ; VAR_1 . METHOD_6 ( VAR_6 ) ; } 
+protected void METHOD_1 ( ) { METHOD_2 ( TYPE_1 . getParameters ( ) . METHOD_3 ( ) ) ; super . METHOD_1 ( ) ; } 
+public static java.lang.String METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( TYPE_2 . METHOD_3 ( ) . METHOD_4 ( ) , VAR_1 < java.lang.String > getValue ( VAR_2 ) ) ; } 
+public static boolean METHOD_1 ( TYPE_1 < org.ovirt.engine.core.common.businessentities.DiskImage > VAR_1 , org.ovirt.engine.core.compat.Guid VAR_2 ) { return TYPE_2 . METHOD_1 ( VAR_1 , VAR_2 , new java.util.ArrayList < org.ovirt.engine.core.common.businessentities.DiskImage > ( ) ) ; } 
+protected TYPE_1 METHOD_1 ( TYPE_1 model , org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface entity ) { return VAR_1 . METHOD_2 ( model , entity , VAR_2 , VAR_3 ) ; } 
+public TYPE_1 get ( TYPE_2 id ) { if ( id == null ) { return null ; } else { return TYPE_3 . METHOD_1 ( ) . METHOD_2 ( METHOD_3 ( ) , METHOD_4 ( ) , METHOD_5 ( id ) ) ; } } 
+public TYPE_1 . VdcActionParametersBase METHOD_1 ( TYPE_2 vm ) { TYPE_3 parameters = new TYPE_3 ( false , vm . getId ( ) , vds . getId ( ) ) ; parameters . METHOD_2 ( false ) ; return parameters ; } 
+public java.util.List < org.ovirt.engine.core.common.businessentities . Disk > METHOD_1 ( org.ovirt.engine.core.compat.Guid id ) { return METHOD_1 ( id , false ) ; } 
+public void METHOD_1 ( ) { host = new org.ovirt.engine.core.common.businessentities.VDS ( ) ; validator = new TYPE_1 ( host ) ; } 
+protected void METHOD_1 ( ) { } 
+private org.ovirt.engine.core.common.businessentities . VdsNetworkInterface METHOD_1 ( java.lang.String name , java.lang.String VAR_1 ) { return METHOD_2 ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) , name , true , null , null , VAR_1 , true ) ; } 
+protected void METHOD_1 ( ) { TYPE_2 . METHOD_2 ( VAR_2 ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( new TYPE_1 . DiskImage ( ) ) ; METHOD_3 ( ) ; METHOD_4 ( VAR_2 ) ; METHOD_5 ( false ) ; TYPE_2 . METHOD_6 ( command . validate ( ) ) ; } 
+public void onSuccess ( java.lang.Object model , java.lang.Object returnValue ) { METHOD_1 ( ( ( java.util.List < TYPE_1 > ) ( returnValue ) ) ) ; TYPE_3 . METHOD_2 ( VAR_1 ) ; } 
+public void METHOD_1 ( TYPE_1 map ) { METHOD_2 ( map . getId ( ) , map . getStatus ( ) ) ; } 
+public static synchronized boolean METHOD_1 ( TYPE_1 . StorageDomain storageDomain ) { TYPE_2 type = storageDomain . METHOD_3 ( ) ; return ( type != null ) && ( type == ( VAR_1 ) ) ; } 
+private org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface METHOD_1 ( java.lang.String name , java.lang.String VAR_1 ) { return METHOD_2 ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) , name , true , null , null , null , VAR_1 , true , null , false , null ) ; } 
+public void METHOD_1 ( ) { cmd = org.mockito.Mockito . METHOD_2 ( new TYPE_1 ( new TYPE_2 ( null , null ) , null ) ) ; METHOD_3 ( cmd ) ; TYPE_3 . METHOD_4 ( cmd . validate ( ) ) ; } 
+public int METHOD_1 ( org.ovirt.engine.core.common.businessentities.network.Network VAR_1 , org.ovirt.engine.core.common.businessentities.network.Network VAR_2 ) { return VAR_1 . getName ( ) . METHOD_3 ( VAR_2 . getName ( ) ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { TYPE_1 VAR_1 = ( ( TYPE_1 ) ( target ) ) ; VAR_1 . METHOD_2 ( ( ( java.lang.Integer ) ( returnValue ) ) ) ; VAR_1 . METHOD_3 ( ) ; } 
+public void onSuccess ( java.lang.Object returnValue ) { this . setItems ( ( ( java.util.List < TYPE_1 > ) ( ( ( TYPE_2 . VdcQueryReturnValue ) ( returnValue ) ) . getReturnValue ( ) ) ) ) ; } 
+public TYPE_1 METHOD_1 ( ) { if ( VAR_2 < java.lang.Boolean > getValue ( VAR_3 ) ) { return VAR_1 . METHOD_2 ( VAR_4 ) ; } return null ; } 
+private void METHOD_1 ( ) { METHOD_2 ( ) ; METHOD_3 ( ) ; METHOD_4 ( ) ; METHOD_5 ( ) ; } 
+public void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( TYPE_2 . METHOD_3 ( null , VAR_1 ) ) ; } 
+public void METHOD_1 ( java.util.HashMap < org.ovirt.engine.core.compat.Guid , java.util.ArrayList < org.ovirt.engine.core.compat.Guid > > value ) { VAR_1 = value ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface iface = METHOD_2 ( ) ; METHOD_3 ( iface , false , VAR_1 . Collections < java.lang.String , org.ovirt.engine.core.common.businessentities.network.Network > METHOD_4 ( ) ) ; } 
+public int METHOD_1 ( ) { return getVm ( ) . METHOD_1 ( ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { METHOD_2 ( TYPE_1 . METHOD_3 ( ) ) ; METHOD_4 ( 1 , 0 , false ) ; METHOD_6 ( resource . get ( ) , 0 ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( null ) ; TYPE_1 VAR_1 = ( ( TYPE_1 ) ( getWindow ( ) ) ) ; VAR_1 . METHOD_3 ( true ) ; } 
+TYPE_1 METHOD_1 ( TYPE_1 VAR_1 , TYPE_1 VAR_2 , java.lang.String id ) ; 
+public void METHOD_1 ( ) throws java.lang.Exception { super . METHOD_1 ( ) ; VAR_2 = dao . get ( VAR_3 ) ; VAR_4 = dao . get ( VAR_5 ) ; VAR_6 = org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) ; } 
+public void onSuccess ( java.util.List < TYPE_1 > hosts ) { TYPE_2 VAR_1 = METHOD_1 ( ) ; VAR_1 . setItems ( hosts ) ; VAR_1 . METHOD_2 ( true ) ; } 
+public java.lang.String getValue ( TYPE_1 object ) { return ( object . METHOD_1 ( ) ) == null ? new java.lang.String ( ) : object . METHOD_2 ( ) ; } 
+protected void METHOD_1 ( ) { if ( ( TYPE_1 . getVm ( ) . getStatus ( ) ) != ( VAR_1 ) ) { super . METHOD_1 ( ) ; } } 
+protected void METHOD_1 ( ) { METHOD_3 ( ) ; } 
+public java.util.List < TYPE_1 > METHOD_1 ( java.lang.String VAR_1 ) { return VAR_2 . METHOD_2 ( VAR_1 , VAR_3 . instance ) ; } 
+public void METHOD_1 ( ) { org.ovirt.engine.core.common.businessentities.VDSGroup result = dao . METHOD_2 ( VAR_1 . getName ( ) , VAR_2 , false ) ; METHOD_4 ( result ) ; } 
+private TYPE_1 METHOD_1 ( ) { TYPE_1 VAR_1 = new TYPE_1 ( ) ; VAR_1 . METHOD_2 ( STRING_1 ) ; VAR_1 . METHOD_3 ( STRING_2 ) ; return VAR_1 ; } 
+protected boolean validate ( ) { boolean validate = super . validate ( ) ; if ( ! validate ) { VAR_2 . log ( this , VAR_3 ) ; } return validate ; } 
+public long METHOD_3 ( ) { return METHOD_2 ( ) . METHOD_3 ( ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( VAR_1 ) ; disk . METHOD_3 ( true ) ; TYPE_1 . METHOD_5 ( validator . METHOD_6 ( ) , TYPE_2 . METHOD_7 ( VAR_2 ) ) ; } 
+protected void METHOD_1 ( ) { VAR_1 = ( ++ ( VAR_1 ) ) % ( VAR_2 ) ; } 
+TYPE_1 METHOD_1 ( java.lang.String value , java.lang.String VAR_1 , java.lang.String id ) ; 
+public static void METHOD_1 ( ) { if ( ( VAR_1 ) != null ) { if ( ! ( VAR_1 . METHOD_2 ( ) ) ) { } VAR_1 = null ; } } 
+public void METHOD_1 ( ) { METHOD_2 ( ) ; cmd . getVm ( ) . METHOD_4 ( VAR_3 ) ; TYPE_1 . METHOD_5 ( cmd ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { TYPE_1 VAR_1 = ( ( TYPE_1 ) ( target ) ) ; java.util.ArrayList < org.ovirt.engine.core.common.businessentities.VDS > hosts = ( ( java.util.ArrayList < org.ovirt.engine.core.common.businessentities.VDS > ) ( returnValue ) ) ; VAR_1 . METHOD_2 ( hosts ) ; } 
+private void METHOD_1 ( final TYPE_1 . VdcQueryType VAR_1 , final java.lang.String context ) { METHOD_2 ( METHOD_3 ( ) , VAR_1 , context ) ; } 
+public void METHOD_1 ( int VAR_1 , TYPE_1 quota , java.lang.String value ) { VAR_2 . METHOD_2 ( true ) ; } 
+private void METHOD_1 ( ) { VAR_1 . METHOD_2 ( STRING_1 ) ; VAR_3 . instance = this ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { TYPE_1 . assertEquals ( 0 , TYPE_2 . METHOD_3 ( ) . size ( ) ) ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.common.businessentities.StorageDomain VAR_1 ) { return ( ( VAR_1 . getStatus ( ) ) == ( VAR_2 ) ) || ( ( VAR_1 . getStatus ( ) ) == ( VAR_3 ) ) ; } 
+public void onSuccess ( java.lang.Object model , java.lang.Object result ) { VAR_1 = ( ( org.ovirt.engine.core.common.businessentities.VM ) ( result ) ) ; METHOD_1 ( VAR_1 ) ; } 
+public void onSuccess ( final TYPE_1 result ) { VAR_1 . METHOD_1 ( STRING_1 ) ; VAR_2 . METHOD_2 ( ) . onSuccess ( result ) ; } 
+public boolean METHOD_1 ( java.lang.String VAR_1 ) throws TYPE_1 { return VAR_2 . METHOD_1 ( VAR_1 ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( INT_1 , INT_2 , 0 , 0 , 0 , 0 ) ; TYPE_1 . METHOD_3 ( VAR_1 . METHOD_4 ( nic ) ) ; } 
+public org.ovirt.engine.core.common.businessentities.VM getValue ( org.ovirt.engine.core.common.businessentities.VM object ) { return object ; } 
+public int METHOD_1 ( TYPE_1 < org.ovirt.engine.core.common.businessentities.VDSGroup , TYPE_2 > VAR_1 , TYPE_1 < org.ovirt.engine.core.common.businessentities.VDSGroup , TYPE_2 > VAR_2 ) { return VAR_1 . METHOD_2 ( ) . getName ( ) . METHOD_4 ( VAR_2 . METHOD_2 ( ) . getName ( ) ) ; } 
+public void METHOD_1 ( TYPE_2 client ) ; 
+public boolean METHOD_1 ( int VAR_1 , int VAR_2 , org.ovirt.engine.core.compat . Version VAR_3 ) { return ( VAR_2 >= ( METHOD_2 ( VAR_1 , VAR_3 ) ) ) && ( VAR_2 <= ( METHOD_3 ( VAR_1 , VAR_3 ) ) ) ; } 
+public void METHOD_1 ( TYPE_1 value ) { status = value ; } 
+public void METHOD_1 ( ) { org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface result = dao . METHOD_2 ( VAR_1 , VAR_2 , true ) ; TYPE_1 . METHOD_3 ( result ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { TYPE_1 VAR_1 = ( ( TYPE_1 ) ( target ) ) ; org.ovirt.engine.core.common.businessentities.VDS VAR_2 = ( ( org.ovirt.engine.core.common.businessentities.VDS ) ( returnValue ) ) ; VAR_3 = VAR_2 ; VAR_1 . METHOD_2 ( ) ; } 
+private TYPE_1 METHOD_1 ( java.lang.String id , java.lang.String VAR_1 ) { return METHOD_1 ( id , VAR_1 , null ) ; } 
+private static TYPE_1 METHOD_1 ( ) { return TYPE_2 . getInstance ( ) . get ( VAR_1 class ) ; } 
+public TYPE_1 METHOD_1 ( ) { return VAR_1 . get ( ) ; } 
+private void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( command , VAR_1 ) ; org.mockito.Mockito.when ( VAR_1 . get ( command . getParameters ( ) . METHOD_3 ( ) ) ) . thenReturn ( null ) ; METHOD_4 ( ) ; } 
+protected java.util.List < TYPE_1 > METHOD_1 ( ) { java.util.List < TYPE_1 > VAR_1 = new java.util.ArrayList ( TYPE_2 . getInstance ( ) . METHOD_2 ( ) ) ; TYPE_3 . METHOD_3 ( VAR_1 ) ; return VAR_1 ; } 
+public static java.lang.String METHOD_1 ( boolean VAR_1 ) { if ( ( ( TYPE_1 . METHOD_2 ( ) ) == null ) || VAR_1 ) return STRING_1 ; else return VAR_2 < java.lang.String > getValue ( VAR_3 ) ; } 
+public org.ovirt.engine.core.common.businessentities.VDSGroup getVdsGroup ( ) { if ( ( TYPE_1 . METHOD_1 ( ) ) != null ) { METHOD_2 ( TYPE_1 . METHOD_1 ( ) . METHOD_3 ( ) ) ; } return super . getVdsGroup ( ) ; } 
+public void METHOD_1 ( java.lang.String value ) { name = value ; } 
+private void METHOD_1 ( TYPE_1 VAR_1 ) { VAR_1 . METHOD_3 ( VAR_3 ) ; VAR_1 . METHOD_4 ( VAR_4 ) ; VAR_1 . METHOD_5 ( VAR_5 ) ; } 
+public void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( VAR_1 . METHOD_3 ( new org.ovirt.engine.core.common.businessentities.VM ( ) , null , new java.util.ArrayList < org.ovirt.engine.core.common.businessentities . Disk > ( ) , null ) , false , VAR_2 ) ; } 
+protected TYPE_1 < ? > METHOD_1 ( TYPE_2 . VdcQueryType VAR_1 , TYPE_3 parameters ) { return TYPE_4 . METHOD_1 ( VAR_1 , parameters ) ; } 
+private void METHOD_1 ( ) { org.mockito.Mockito.doReturn ( VAR_1 ) . when ( command ) . METHOD_2 ( TYPE_1 . any ( ) ) ; } 
+public TYPE_1 list ( ) { if ( METHOD_1 ( ) ) return METHOD_2 ( METHOD_3 ( VAR_1 , new TYPE_2 ( ) , VAR_2 . StorageDomain ) ) ; else return METHOD_2 ( METHOD_3 ( VAR_2 . StorageDomain ) ) ; } 
+private TYPE_1 METHOD_1 ( java.lang.String VAR_1 , org.ovirt.engine.core.compat.Guid vmId ) { TYPE_1 params = new TYPE_1 ( VAR_1 , vmId , true ) ; params . METHOD_2 ( TYPE_2 . getParameters ( ) . METHOD_3 ( ) ) ; return params ; } 
+private org.ovirt.engine.core.common.businessentities.StoragePool METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 , java.util.List < org.ovirt.engine.core.common.businessentities.StoragePool > VAR_2 ) { for ( org.ovirt.engine.core.common.businessentities.StoragePool VAR_3 : VAR_2 ) { if ( VAR_1 . equals ( VAR_3 . getId ( ) ) ) { return VAR_3 ; } } return null ; } 
+protected abstract boolean METHOD_1 ( java.lang.String VAR_1 ) ; 
+protected java.util.Map < java.lang.String , java.lang.String > METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( METHOD_3 ( ) . toString ( ) , METHOD_4 ( ) . getName ( ) ) ; } 
+protected void METHOD_1 ( ) { METHOD_2 ( ) . setSelectedItem ( TYPE_1 . getInstance ( ) . METHOD_3 ( METHOD_2 ( ) . METHOD_4 ( ) ) ) ; } 
+public boolean equals ( java.lang.Object obj ) { return ( ( org.ovirt.engine.core.common.businessentities . Disk ) ( obj ) ) . METHOD_2 ( ) ; } 
+private TYPE_1 . Network map ( TYPE_1 . Network network , TYPE_1 . Network template ) { return METHOD_1 ( VAR_1 . Network class , VAR_1 . Network class ) . map ( network , template ) ; } 
+private void METHOD_1 ( int VAR_1 ) { TYPE_1 . assertEquals ( java.lang.String . METHOD_3 ( VAR_2 , VAR_1 , VAR_3 ) , VAR_1 , VAR_3 ) ; VAR_3 = 0 ; } 
+public TYPE_1 METHOD_1 ( TYPE_2 . VdcActionType VAR_1 , TYPE_2 . VdcActionParametersBase params ) { return METHOD_1 ( VAR_1 , params , null , false ) ; } 
+public static org.ovirt.engine.core.common.businessentities.StorageDomain METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 , java.util.ArrayList < org.ovirt.engine.core.common.businessentities.StorageDomain > VAR_2 ) { for ( org.ovirt.engine.core.common.businessentities.StorageDomain storage : VAR_2 ) { if ( storage . getId ( ) . equals ( VAR_1 ) ) { return storage ; } } return null ; } 
+protected java.util.List < TYPE_1 > METHOD_1 ( java.lang.String VAR_1 ) { return TYPE_2 . METHOD_2 ( ) . METHOD_3 ( ) . METHOD_4 ( VAR_1 ) ; } 
+protected void METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 . METHOD_2 ( VAR_2 ) ; } 
+private TYPE_1 METHOD_1 ( ) throws TYPE_2 { if ( ( this . VAR_1 ) == null ) { return null ; } return VAR_1 . METHOD_2 ( ) ; } 
+protected org.ovirt.engine.core.common.businessentities.StorageDomain METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 ) { return org.ovirt.engine.core.dal.dbbroker.DbFacade.getInstance ( ) . METHOD_2 ( ) . METHOD_3 ( VAR_1 , VAR_2 . getStoragePoolId ( ) . getValue ( ) ) ; } 
+private void METHOD_1 ( ) { } 
+private org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface METHOD_1 ( ) { return METHOD_2 ( STRING_1 , true , null , TYPE_1 . instance ( ) . METHOD_3 ( INT_1 ) , null , null , null , null ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( METHOD_3 ( ) ) ; METHOD_4 ( ) ; METHOD_5 ( ) ; resource . METHOD_7 ( new TYPE_1 ( ) ) ; } 
+private TYPE_1 < ? > METHOD_1 ( ) { return TYPE_2 . METHOD_2 ( ) . get ( TYPE_2 . getParameters ( ) . METHOD_3 ( ) ) ; } 
+protected java.util.Map < java.lang.String , java.lang.String > METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( TYPE_2 . METHOD_3 ( ) . toString ( ) , TYPE_3 . name ( ) ) ; } 
+public void METHOD_1 ( java.lang.Boolean value ) { VAR_1 = value ; } 
+public void METHOD_1 ( ) { METHOD_2 ( VAR_2 ) ; VAR_3 . METHOD_3 ( ) ; TYPE_2 . METHOD_4 ( STRING_1 , VAR_3 . METHOD_5 ( VAR_4 , VAR_2 , false ) ) ; } 
+public TYPE_1 get ( ) { TYPE_1 disk = METHOD_1 ( METHOD_2 ( ) : : get ) ; TYPE_2 . METHOD_3 ( vmId , disk ) ; TYPE_2 . METHOD_4 ( vmId , disk ) ; return disk ; } 
+public void METHOD_1 ( ) { dao . METHOD_2 ( VAR_1 ) ; org.ovirt.engine.core.common.businessentities.VDSGroup result = dao . METHOD_3 ( VAR_1 . getName ( ) ) ; TYPE_1 . METHOD_5 ( result ) ; TYPE_1 . assertEquals ( VAR_1 , result ) ; } 
+void METHOD_1 ( TYPE_1 . VdcActionType action , java.util.List < TYPE_2 > VAR_1 ) ; 
+private void METHOD_1 ( TYPE_1 VAR_2 , boolean VAR_4 ) { METHOD_1 ( false , VAR_2 , 1 , 1 , VAR_4 ) ; } 
+public int METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( id , VAR_1 , type , VAR_2 , VAR_4 , VAR_5 , VAR_6 , METHOD_3 ( ) , VAR_7 , VAR_8 , VAR_9 , VAR_10 , VAR_11 ) ; } 
+public void METHOD_1 ( ) { VAR_1 . METHOD_2 ( VAR_2 , STRING_1 ) ; java.lang.String result = VAR_1 . METHOD_3 ( VAR_2 , STRING_2 , STRING_2 , STRING_2 ) ; TYPE_1 . assertEquals ( STRING_4 , result ) ; } 
+private org.ovirt.engine.core.common.businessentities . VdsNetworkInterface METHOD_1 ( org.ovirt.engine.core.common.businessentities . VdsNetworkInterface iface , java.lang.String VAR_1 ) { return METHOD_2 ( iface . getId ( ) , iface . getName ( ) , false , VAR_1 , null , null , true ) ; } 
+public void METHOD_1 ( org.ovirt.engine.ui.uicommonweb.UICommand command , boolean VAR_1 ) { java.lang.String VAR_2 = ( VAR_1 ) ? VAR_3 . METHOD_2 ( ) : VAR_3 . METHOD_3 ( ) ; VAR_4 . METHOD_4 ( VAR_2 ) ; METHOD_6 ( VAR_4 , command ) ; } 
+public org.ovirt.engine.core.compat.Guid METHOD_1 ( ) { if ( getParameters ( ) . METHOD_2 ( ) ) { return getParameters ( ) . getVm ( ) . getId ( ) ; } return super . METHOD_1 ( ) ; } 
+protected int METHOD_1 ( ) { return VAR_1 < java.lang.Integer > getValue ( VAR_2 ) ; } 
+private void METHOD_1 ( ) { if ( ( getWindow ( ) ) != null ) { return ; } METHOD_2 ( new TYPE_1 ( this , getSelectedItem ( ) ) ) ; } 
+public void METHOD_1 ( TYPE_1 VAR_1 , java.lang.Object sender , TYPE_2 args ) { VAR_2 . METHOD_2 ( model . METHOD_3 ( ) . getEntity ( ) ) ; } 
+public void METHOD_1 ( ) { cmd = org.mockito.Mockito . METHOD_2 ( new TYPE_1 < TYPE_2 > ( new TYPE_2 ( VAR_2 ) ) ) ; METHOD_3 ( cmd ) ; TYPE_3 . METHOD_4 ( cmd . METHOD_5 ( ) ) ; } 
+protected TYPE_1 METHOD_1 ( TYPE_2 . VdcActionType VAR_1 , TYPE_2 . VdcActionParametersBase params ) { return METHOD_1 ( VAR_1 , params , ( ( TYPE_3 ) ( null ) ) , false ) ; } 
+protected TYPE_2 METHOD_1 ( java.lang.String VAR_1 , TYPE_3 VAR_2 ) { return METHOD_1 ( VAR_1 , VAR_2 , null ) ; } 
+public TYPE_1 METHOD_1 ( TYPE_2 < java.lang.String > VAR_1 ) { return VAR_2 . METHOD_2 ( TYPE_3 . METHOD_3 ( ) , VAR_1 ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { VAR_1 = ( ( TYPE_1 ) ( returnValue ) ) ; METHOD_2 ( ) ; } 
+public void METHOD_1 ( ) { org.mockito.Mockito.when ( VAR_1 . METHOD_2 ( ) ) . thenReturn ( true ) ; TYPE_1 . METHOD_4 ( validator . METHOD_5 ( new TYPE_2 ( VAR_3 ) ) , TYPE_3 . METHOD_6 ( ) ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( true , false , null , true ) ; } 
+public void METHOD_1 ( org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface VAR_1 ) { METHOD_2 ( VAR_1 . METHOD_3 ( ) ) ; } 
+public java.lang.String METHOD_1 ( ) { return METHOD_2 ( ) ? VAR_1 . METHOD_1 ( ) : null ; } 
+public void METHOD_1 ( ) { diskImage . METHOD_3 ( VAR_1 ) ; TYPE_1 . METHOD_4 ( cmd , VAR_2 ) ; } 
+protected TYPE_1 METHOD_1 ( ) { return VAR_1 . METHOD_3 ( ) ; } 
+public void METHOD_1 ( ) { this . pool . METHOD_1 ( ) ; } 
+public void onSuccess ( java.lang.Object model , java.lang.Object VAR_1 ) { this . setItems ( ( ( java.util.List < TYPE_1 < TYPE_2 , org.ovirt.engine.core.common.businessentities.VmTemplate > > ) ( ( ( TYPE_3 . VdcQueryReturnValue ) ( VAR_1 ) ) . getReturnValue ( ) ) ) ) ; } 
+public TYPE_1 . ValidationResult METHOD_1 ( ) { if ( ( TYPE_2 . METHOD_2 ( vds . METHOD_3 ( ) ) ) && ( VAR_1 < java.lang.Boolean > getValue ( VAR_2 ) ) ) { return new TYPE_1 . ValidationResult ( VAR_3 ) ; } return VAR_4 ; } 
+public java.lang.String METHOD_1 ( TYPE_1 object ) { return object . toString ( ) ; } 
+public void METHOD_1 ( ) { java.util.List < org.ovirt.engine.core.common.businessentities . Disk > result = dao . METHOD_2 ( null , null , null , false ) ; TYPE_1 . METHOD_3 ( result ) ; } 
+public java.lang.String METHOD_1 ( java.lang.Object object ) { return ( ( org.ovirt.engine.core.common.businessentities.VDS ) ( object ) ) . getName ( ) ; } 
+public void METHOD_1 ( org.ovirt.engine.core.common.businessentities.StoragePool item , TYPE_2 VAR_1 ) { TYPE_3 . METHOD_2 ( VAR_1 . METHOD_3 ( ) , item . METHOD_4 ( ) ) ; } 
+public void METHOD_1 ( ) { org.mockito.Mockito.doReturn ( VAR_1 ) . when ( METHOD_2 ( ) ) . METHOD_3 ( ) ; VAR_2 . METHOD_1 ( VAR_3 , VAR_4 ) ; } 
+public boolean METHOD_1 ( java.lang.String VAR_1 , org.ovirt.engine.core.compat . Version VAR_2 ) { final TYPE_1 VAR_3 = VAR_4 . get ( VAR_2 ) ; if ( VAR_3 != null ) { return VAR_3 . METHOD_1 ( VAR_1 ) ; } return false ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { METHOD_2 ( METHOD_3 ( ) ) ; METHOD_4 ( METHOD_5 ( getEntity ( 1 ) ) ) ; METHOD_7 ( resource . get ( ) , 1 ) ; } 
+public void METHOD_1 ( ) { org.ovirt.engine.core.common.businessentities.StorageDomain result = dao . METHOD_2 ( VAR_1 . getId ( ) , TYPE_2 . METHOD_3 ( ) ) ; TYPE_3 . METHOD_4 ( result ) ; } 
+private void METHOD_1 ( ) { METHOD_2 ( ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { TYPE_1 . METHOD_2 ( target ) ; } 
+public org.ovirt.engine.core.compat.Guid METHOD_1 ( ) { super . METHOD_2 ( METHOD_3 ( ) ) ; return super . METHOD_1 ( ) ; } 
+private void METHOD_1 ( ) { METHOD_3 ( INT_1 , INT_1 ) ; } 
+private TYPE_1 METHOD_1 ( java.util.List < TYPE_2 > VAR_2 ) { TYPE_1 VAR_3 = new TYPE_1 ( ) ; VAR_3 . METHOD_2 ( true ) ; VAR_3 . METHOD_3 ( VAR_2 ) ; return VAR_3 ; } 
+public void onSuccess ( java.lang.Object model , java.lang.Object returnValue ) { METHOD_1 ( ( ( java.util.List < TYPE_1 > ) ( returnValue ) ) ) ; } 
+public TYPE_1 . DbFacade METHOD_1 ( ) { return org.ovirt.engine.core.dal.dbbroker.DbFacade.getInstance ( ) ; } 
+public TYPE_1 METHOD_1 ( TYPE_2 VAR_1 , TYPE_3 VAR_2 , java.lang.String VAR_3 , int VAR_4 ) throws TYPE_5 { return new TYPE_6 ( VAR_1 , VAR_2 , VAR_3 , VAR_4 , this . VAR_6 ) ; } 
+private TYPE_1 < TYPE_2 , TYPE_3 > METHOD_1 ( ) { TYPE_2 value = METHOD_2 ( ) ; TYPE_3 widget = METHOD_3 ( value , true ) ; return new TYPE_1 < TYPE_2 , TYPE_3 > ( value , widget ) ; } 
+public TYPE_1 METHOD_1 ( org.ovirt.engine.core.compat.Guid vmId , org.ovirt.engine.core.compat.Guid VAR_1 , java.lang.Boolean VAR_2 , java.lang.Boolean VAR_3 , boolean VAR_4 ) { return METHOD_1 ( vmId , VAR_1 , VAR_2 , VAR_3 , STRING_1 , VAR_4 ) ; } 
+private void METHOD_1 ( ) { org.mockito.Mockito.doReturn ( VAR_1 ) . when ( command ) . METHOD_2 ( TYPE_1 . any ( ) , TYPE_1 . any ( ) ) ; command . METHOD_3 ( VAR_4 ) ; } 
+protected java.util.List < org.ovirt.engine.core.common.businessentities.VDSGroup > METHOD_1 ( ) { return METHOD_2 ( VAR_1 , new org.ovirt.engine.core.common.queries.IdQueryParameters ( VAR_2 ) ) ; } 
+protected boolean METHOD_1 ( java.util.List < org.ovirt.engine.core.common.businessentities.VM > VAR_1 ) { for ( org.ovirt.engine.core.common.businessentities.VM vm : VAR_1 ) { if ( ( vm . getStatus ( ) ) != ( VAR_2 ) ) { return true ; } } return false ; } 
+private TYPE_1 METHOD_1 ( ) { return getEntity ( VAR_1 class , VAR_2 , new org.ovirt.engine.core.common.queries.IdQueryParameters ( VAR_3 ) , VAR_3 . toString ( ) ) ; } 
+protected TYPE_1 < TYPE_2 > METHOD_1 ( ) { return new TYPE_1 < TYPE_2 > ( ) ; } 
+protected boolean METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( getVm ( ) . getName ( ) , TYPE_2 . getStoragePoolId ( ) ) ? METHOD_3 ( VAR_1 ) : true ; } 
+protected void METHOD_1 ( ) { super . METHOD_1 ( ) ; METHOD_2 ( VAR_1 class ) . METHOD_4 ( ) ; METHOD_2 ( VAR_3 class ) . METHOD_4 ( ) ; METHOD_2 ( VAR_4 class ) . METHOD_4 ( ) ; } 
+protected boolean METHOD_1 ( TYPE_1 VAR_1 ) { return ( METHOD_2 ( TYPE_2 . getVm ( ) ) ) && ( validate ( VAR_1 . METHOD_3 ( ) ) ) ; } 
+protected java.util.Map < java.lang.String , java.lang.String > METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( TYPE_2 . METHOD_3 ( ) . toString ( ) , TYPE_3 . name ( ) ) ; } 
+public java.lang.String METHOD_1 ( ) { if ( ( ( VAR_1 ) == null ) && ( ( METHOD_2 ( ) ) != null ) ) { VAR_1 = METHOD_2 ( ) . getName ( ) ; } return VAR_1 ; } 
+public static java.util.List < java.lang.String > METHOD_1 ( java.lang.String VAR_1 , TYPE_1 < ? > command , TYPE_2 . EngineMessage VAR_2 ) { TYPE_3 . METHOD_2 ( STRING_1 , command . METHOD_3 ( ) ) ; return TYPE_4 . METHOD_4 ( VAR_1 , command , VAR_2 ) ; } 
+private org.ovirt.engine.core.common.businessentities . VdsNetworkInterface METHOD_1 ( java.lang.String name , java.lang.String VAR_1 ) { return METHOD_2 ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) , name , true , null , null , VAR_1 ) ; } 
+public java.lang.String toString ( ) { java.lang.String VAR_1 = STRING_1 ; if ( ( VAR_2 ) < 0 ) { VAR_1 = STRING_2 ; } return java.lang.String . METHOD_1 ( STRING_3 , VAR_1 , VAR_3 , VAR_4 , VAR_5 , VAR_6 , VAR_7 ) ; } 
+public boolean METHOD_1 ( java.lang.String VAR_1 , java.lang.String obj ) { TYPE_1 VAR_2 = METHOD_2 ( obj ) ; if ( VAR_2 != null ) { return VAR_2 . validate ( VAR_1 ) ; } return false ; } 
+public void METHOD_1 ( ) { java.lang.Object [ ] VAR_1 = new java.lang.Object [ 0 ] ; java.util.Map < java.lang.String , java.lang.Object > VAR_2 = TYPE_1 . METHOD_2 ( VAR_1 ) ; TYPE_1 . METHOD_3 ( TYPE_1 . METHOD_4 ( ) , VAR_1 , VAR_2 ) ; } 
+private java.util.List < org.ovirt.engine.core.common.businessentities.StoragePool > METHOD_1 ( ) { return METHOD_2 ( TYPE_1 . METHOD_3 ( ) . METHOD_4 ( ) , true ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { TYPE_1 VAR_1 = ( ( TYPE_1 ) ( target ) ) ; TYPE_2 < org.ovirt.engine.core.common.businessentities.VDS > hosts = ( ( TYPE_2 < org.ovirt.engine.core.common.businessentities.VDS > ) ( returnValue ) ) ; VAR_1 . METHOD_2 ( hosts ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { METHOD_2 ( VAR_1 ) ; org.ovirt.engine.core.compat.Guid VAR_2 = org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) ; METHOD_4 ( VAR_2 ) ; METHOD_6 ( VAR_2 ) ; METHOD_7 ( ) ; METHOD_8 ( ) ; } 
+public TYPE_1 METHOD_1 ( ) { TYPE_3 . VdcActionParametersBase params = new TYPE_3 . VdcActionParametersBase ( ) ; params . METHOD_2 ( METHOD_3 ( ) ) ; TYPE_1 returnValue = METHOD_4 ( ) . METHOD_5 ( params ) ; return returnValue ; } 
+protected java.util.List < TYPE_1 > METHOD_1 ( ) { return METHOD_2 ( ) . METHOD_3 ( TYPE_2 . getParameters ( ) . METHOD_4 ( ) . toString ( ) ) ; } 
+protected boolean METHOD_1 ( ) { return ( getVm ( ) . METHOD_2 ( ) ) == ( VAR_1 ) ? METHOD_3 ( VAR_2 ) : true ; } 
+public static TYPE_1 METHOD_1 ( java.lang.String VAR_1 ) { VAR_2 = VAR_1 ; if ( ( VAR_3 ) == null ) { VAR_3 = new TYPE_2 ( VAR_4 < java.lang.Integer > getValue ( VAR_5 ) ) ; } return VAR_3 ; } 
+public void METHOD_1 ( final TYPE_1 VAR_1 ) { VAR_2 . METHOD_4 ( VAR_1 ) ; } 
+public java.lang.String METHOD_1 ( ) { if ( ( METHOD_2 ( ) ) != null ) { return METHOD_2 ( ) . METHOD_1 ( ) ; } return VAR_1 ; } 
+protected void METHOD_1 ( ) { if ( ( getEntity ( ) ) == null ) { return ; } super . METHOD_1 ( VAR_1 , new org.ovirt.engine.core.common.queries.IdQueryParameters ( getEntity ( ) . getId ( ) ) ) ; } 
+private TYPE_1 METHOD_1 ( TYPE_2 action ) { TYPE_3 params = new TYPE_3 ( true ) ; params . METHOD_2 ( VAR_1 ) ; params . METHOD_3 ( getEntity ( ) . getStoragePoolId ( ) ) ; return METHOD_5 ( VAR_2 , params , action ) ; } 
+public void onSuccess ( java.lang.Boolean returnValue ) { METHOD_1 ( returnValue ) ; } 
+protected java.util.List < TYPE_1 > METHOD_1 ( ) { java.util.List < TYPE_1 > VAR_1 = new java.util.ArrayList < > ( ) ; VAR_1 . add ( METHOD_2 ( ) ) ; VAR_1 . add ( METHOD_2 ( ) ) ; return VAR_1 ; } 
+public java.lang.String METHOD_1 ( ) { return ( METHOD_2 ( ) ) != null ? METHOD_2 ( ) . getValue ( ) : null ; } 
+private void METHOD_1 ( ) { METHOD_3 ( true ) ; METHOD_4 ( ) ; } 
+private void METHOD_1 ( org.ovirt.engine.core.common.businessentities.VDS host , TYPE_1 VAR_1 , java.util.Map < java.lang.String , java.lang.String > VAR_2 ) { VAR_3 . get ( ) . METHOD_2 ( ) . METHOD_3 ( host . getId ( ) , VAR_1 , true , VAR_4 , VAR_2 ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( ) ; METHOD_3 ( ) ; METHOD_4 ( ) ; METHOD_5 ( ) ; METHOD_6 ( ) ; METHOD_8 ( ) ; METHOD_9 ( ) ; METHOD_10 ( VAR_1 ) ; } 
+public void onSuccess ( TYPE_1 . VdcQueryReturnValue returnValue ) { VAR_1 = ( ( java.util.ArrayList < java.lang.Integer > ) ( returnValue . getReturnValue ( ) ) ) ; } 
+public void METHOD_1 ( final org.ovirt.engine.core.compat.Guid VAR_1 , final TYPE_1 status , TYPE_1 VAR_2 , final TYPE_2 VAR_3 ) { METHOD_2 ( TYPE_4 . METHOD_3 ( VAR_1 ) , status , VAR_2 , VAR_3 ) ; } 
+protected TYPE_1 METHOD_1 ( TYPE_1 model , org.ovirt.engine.core.common.businessentities.VDS entity ) { VAR_1 . METHOD_2 ( model , entity ) ; return model ; } 
+public int METHOD_1 ( int VAR_1 , org.ovirt.engine.core.compat . Version version ) ; 
+private void METHOD_1 ( ) { org.mockito.Mockito.doReturn ( true ) . when ( cmd ) . METHOD_2 ( ) ; } 
+public void METHOD_1 ( ) { TYPE_1 . assertEquals ( ( STRING_2 + ( value ) ) , value . METHOD_3 ( ) , value . getValue ( ) ) ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.compat . Version version ) { return ( ( java.lang.Boolean ) ( METHOD_2 ( VAR_1 , version . toString ( ) ) ) ) ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.common.businessentities.network.Network VAR_1 ) { return iface . METHOD_2 ( ) . equals ( VAR_1 . getName ( ) ) ; } 
+protected void METHOD_1 ( ) { if ( ( getEntity ( ) ) == null ) { return ; } super . METHOD_2 ( VAR_1 , new TYPE_1 ( getEntity ( ) . getName ( ) ) ) ; } 
+public void onSuccess ( TYPE_1 . VdcQueryReturnValue returnValue ) { VAR_1 = returnValue . getReturnValue ( ) ; } 
+public void METHOD_1 ( java.lang.String value ) { this . VAR_1 . METHOD_1 ( value ) ; } 
+public TYPE_1 METHOD_1 ( ) { super . METHOD_1 ( ) ; return VAR_1 . METHOD_1 ( ) ; } 
+public TYPE_1 < TYPE_2 > METHOD_1 ( ) { java.util.List < TYPE_2 > VAR_1 = METHOD_2 ( VAR_2 class , VAR_3 , new org.ovirt.engine.core.common.queries.IdQueryParameters ( VAR_4 ) ) ; return new TYPE_1 ( VAR_1 ) ; } 
+public java.lang.Boolean METHOD_1 ( ) { return this . VAR_1 . METHOD_1 ( ) ; } 
+private boolean METHOD_1 ( java.util.List < org.ovirt.engine.core.common.businessentities.DiskImage > VAR_1 ) { METHOD_2 ( VAR_1 , TYPE_1 . METHOD_3 ( ) ) ; java.util.List < org.ovirt.engine.core.common.businessentities.DiskImage > VAR_2 = METHOD_4 ( VAR_1 ) ; VAR_2 . METHOD_5 ( METHOD_6 ( ) ) ; return METHOD_7 ( VAR_2 ) ; } 
+private void METHOD_1 ( ) { if ( ( TYPE_1 . getVm ( ) . getStatus ( ) ) != ( VAR_1 ) ) { METHOD_3 ( TYPE_1 . METHOD_4 ( ) . getId ( ) ) ; } } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { TYPE_1 model = ( ( TYPE_1 ) ( target ) ) ; VAR_1 = ( ( java.lang.Integer ) ( returnValue ) ) ; METHOD_2 ( ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { TYPE_1 model = ( ( TYPE_1 ) ( target ) ) ; java.util.List < java.lang.String > VAR_1 = ( ( java.util.List < java.lang.String > ) ( returnValue ) ) ; METHOD_1 ( model , VAR_1 ) ; } 
+public java.lang.String getValue ( java.lang.Object object ) { return java.lang.String.valueOf ( ( ( org.ovirt.engine.core.common.businessentities.VmTemplate ) ( object ) ) . METHOD_1 ( ) . size ( ) ) ; } 
+public void METHOD_1 ( TYPE_1 VAR_1 ) { if ( ( this . VAR_1 ) == null ) { this . VAR_1 = VAR_1 ; } } 
+protected void METHOD_1 ( ) { super . METHOD_1 ( ) ; METHOD_2 ( ) ; if ( ( getTable ( ) ) != null ) { getTable ( ) . METHOD_4 ( ) ; } } 
+public boolean equals ( java.lang.Object obj ) { return ( obj != null ) && ( ( ( org.ovirt.engine.core.common.businessentities . Disk ) ( obj ) ) . METHOD_1 ( ) ) ; } 
+protected void METHOD_1 ( ) { VAR_1 = new TYPE_1 ( ) ; } 
+public void onSuccess ( java.util.List < TYPE_1 < ? > > result ) { java.util.List < TYPE_1 > VAR_1 = METHOD_1 ( result ) ; METHOD_2 ( ) . setItems ( VAR_1 ) ; METHOD_3 ( ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( METHOD_3 ( ) ) ; resource . METHOD_4 ( METHOD_5 ( ) ) ; VAR_1 . METHOD_6 ( ) ; TYPE_1 VAR_2 = resource . get ( ) ; assertEquals ( VAR_3 , VAR_2 . METHOD_7 ( ) ) ; } 
+public void METHOD_1 ( ) { java.util.List < TYPE_1 > result = dao . METHOD_2 ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) ) ; TYPE_2 . assertEquals ( result . size ( ) , 0 ) ; } 
+private void METHOD_1 ( java.lang.Object entity ) { if ( entity == null ) { return ; } org.ovirt.engine.core.common.businessentities.VM vm = ( ( org.ovirt.engine.core.common.businessentities.VM ) ( entity ) ) ; METHOD_2 ( TYPE_1 . getInstance ( ) . METHOD_3 ( vm ) ) ; } 
+protected TYPE_1 METHOD_1 ( org.ovirt.engine.core.common.businessentities.VM vm ) { return vm . METHOD_2 ( ) ; } 
+void METHOD_1 ( java.lang.String VAR_1 ) { VAR_2 . METHOD_2 ( VAR_1 ) ; } 
+public void METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 ) { METHOD_2 ( ) . METHOD_3 ( ( VAR_1 == null ? null : VAR_1 . getValue ( ) ) ) ; } 
+public void METHOD_1 ( ) { org.ovirt.engine.core.compat.Guid VAR_2 = VAR_3 ; java.util.List < TYPE_1 > VAR_4 = dao . METHOD_3 ( VAR_2 ) ; METHOD_4 ( VAR_4 , VAR_5 , VAR_6 , VAR_7 ) ; } 
+protected void METHOD_1 ( ) { new TYPE_2 ( ) . METHOD_2 ( TYPE_3 . METHOD_3 ( ) ) ; } 
+public TYPE_1 METHOD_1 ( TYPE_2 action ) { return METHOD_2 ( VAR_1 , new TYPE_3 ( VAR_2 , false , true ) , action ) ; } 
+public java.lang.String METHOD_1 ( TYPE_1 rs , int VAR_1 ) throws TYPE_2 { return rs.getString ( 1 ) ; } 
+TYPE_1 METHOD_1 ( TYPE_2 VAR_1 ) { TYPE_1 VAR_2 = new TYPE_1 ( ) ; VAR_2 . METHOD_2 ( STRING_1 ) ; VAR_2 . METHOD_3 ( STRING_1 ) ; VAR_2 . METHOD_4 ( VAR_1 ) ; return VAR_2 ; } 
+TYPE_1 METHOD_1 ( TYPE_1 VAR_1 , java.lang.String id ) ; 
+private java.util.List < TYPE_1 > METHOD_1 ( ) { return METHOD_2 ( VAR_2 ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { super . METHOD_1 ( ) ; dao = VAR_1 . METHOD_3 ( ) ; VAR_2 = dao . get ( STRING_1 ) ; VAR_3 = new TYPE_1 ( ) ; VAR_3 . METHOD_4 ( STRING_2 ) ; } 
+public void METHOD_1 ( ) { final int VAR_1 = 0 ; final TYPE_1 VAR_3 = METHOD_2 ( VAR_1 ) ; TYPE_2 . METHOD_3 ( VAR_3 . METHOD_4 ( ) ) ; } 
+public void onSuccess ( java.lang.Integer returnValue ) { METHOD_1 ( returnValue ) ; METHOD_2 ( ) ; } 
+protected TYPE_1 < TYPE_2 > getParameters ( ) { return new TYPE_3 ( METHOD_1 ( ) ) ; } 
+public void METHOD_1 ( boolean VAR_1 ) { VAR_2 . METHOD_2 ( VAR_3 , ( ! VAR_1 ) ) ; TYPE_1 . get ( ) . METHOD_3 ( ( ) - > VAR_4 . METHOD_5 ( ) ) ; } 
+private void METHOD_1 ( ) { VAR_1 = TYPE_1 . METHOD_2 ( ) ; VAR_2 = VAR_1 ; TYPE_2 . METHOD_3 ( ) ; TYPE_3 . METHOD_3 ( ) ; TYPE_4 . METHOD_4 ( ) ; VAR_3 . METHOD_5 ( STRING_1 ) ; } 
+public void METHOD_1 ( ) { } 
+protected TYPE_1 < TYPE_2 > METHOD_1 ( ) { return new TYPE_3 < TYPE_2 > ( VAR_1 , METHOD_2 ( ) , TYPE_4 . METHOD_3 ( ) , TYPE_4 . METHOD_4 ( ) ) ; } 
+private org.ovirt.engine.core.common.businessentities.VM METHOD_1 ( final int VAR_1 ) { METHOD_2 ( ) ; METHOD_4 ( VAR_1 ) ; METHOD_5 ( VAR_1 ) ; METHOD_6 ( ) ; return TYPE_1 . METHOD_7 ( ) ; } 
+public static TYPE_1 getInstance ( ) { return VAR_1 ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.common.businessentities.StorageDomain domain ) { return ( domain . METHOD_2 ( ) ) == ( VAR_1 ) ; } 
+public void METHOD_1 ( java.lang.String status ) { setTitle ( status ) ; } 
+protected TYPE_1 METHOD_1 ( TYPE_1 model , TYPE_2 entity ) { return model ; } 
+private TYPE_1 METHOD_1 ( ) { TYPE_1 parameters = new TYPE_1 ( TYPE_2 . METHOD_2 ( ) , false , false ) ; parameters . METHOD_3 ( VAR_1 ) ; return parameters ; } 
+private TYPE_1 METHOD_1 ( ) { try { return TYPE_1 . valueOf ( ( ( java.lang.String ) ( TYPE_2 . getInstance ( ) . METHOD_2 ( VAR_1 ) ) ) ) ; } catch ( java.lang.Exception e ) { return VAR_2 ; } } 
+public void onSuccess ( java.lang.Object model , java.lang.Object result ) { TYPE_1 VAR_1 = new TYPE_2 ( ( ( org.ovirt.engine.core.common.businessentities.VM ) ( result ) ) , this ) ; METHOD_1 ( VAR_1 ) ; VAR_1 . METHOD_2 ( ) ; } 
+private org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface METHOD_1 ( ) { return METHOD_2 ( STRING_1 , true , null , TYPE_1 . instance ( ) . METHOD_3 ( INT_1 ) , null , null , null ) ; } 
+protected java.lang.String METHOD_1 ( ) { return TYPE_2 . getInstance ( ) . METHOD_2 ( ) . get ( 0 ) . getName ( ) ; } 
+private static org.ovirt.engine.core.common.businessentities.StoragePool METHOD_1 ( ) { org.ovirt.engine.core.common.businessentities.StoragePool pool = new org.ovirt.engine.core.common.businessentities.StoragePool ( ) ; pool . setId ( org.ovirt.engine.core.compat.Guid . METHOD_2 ( ) ) ; pool . METHOD_3 ( STRING_1 ) ; return pool ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.common.businessentities . Network VAR_1 ) { return iface . METHOD_2 ( ) . equals ( VAR_1 . METHOD_3 ( ) ) ; } 
+public void onSuccess ( java.util.Map < org.ovirt.engine.core.compat . Version , java.util.Map < java.lang.String , java.lang.String > > returnValue ) { VAR_1 = returnValue ; } 
+public void METHOD_1 ( ) { org.mockito.Mockito.doReturn ( null ) . when ( validator ) . METHOD_2 ( TYPE_1 . any ( ) ) ; TYPE_2 . METHOD_3 ( validator . METHOD_4 ( ) , TYPE_3 . METHOD_5 ( ) ) ; } 
+private java.util.List < TYPE_1 > METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 , TYPE_2 VAR_2 ) { return getEntity ( VAR_3 . List class , VAR_4 , new TYPE_3 ( VAR_1 , VAR_2 , false , null , false ) , STRING_1 , true ) ; } 
+public void onSuccess ( java.util.List < java.lang.String > VAR_1 ) { METHOD_1 ( VAR_1 ) ; } 
+public TYPE_1 METHOD_1 ( java.lang.String VAR_1 ) { if ( STRING_1 . equals ( VAR_1 ) ) { return VAR_2 ; } else { return VAR_3 ; } } 
+private TYPE_1 < TYPE_2 , TYPE_3 > METHOD_1 ( ) { if ( ( VAR_1 ) == null ) { VAR_1 = new TYPE_1 ( null , null ) ; } return VAR_1 ; } 
+public void onSuccess ( java.lang.Object model , java.lang.Object result ) { java.util.List < org.ovirt.engine.core.common.businessentities.VDS > VAR_1 = ( ( java.util.List < org.ovirt.engine.core.common.businessentities.VDS > ) ( result ) ) ; VAR_1 . add ( 0 , null ) ; METHOD_2 ( ) . setItems ( VAR_1 ) ; } 
+public void METHOD_1 ( ) { if ( ( this . VAR_1 ) != null ) { this . VAR_1 . METHOD_1 ( ) ; } VAR_2 . METHOD_2 ( ) ; } 
+public TYPE_1 < java.lang.String > METHOD_1 ( org.ovirt.engine.core.compat.Guid id ) { return new TYPE_2 ( METHOD_2 ( ) . METHOD_3 ( STRING_1 , new TYPE_3 ( ) , METHOD_4 ( id ) ) ) ; } 
+protected void METHOD_1 ( ) { TYPE_2 . METHOD_2 ( ) . METHOD_3 ( org.ovirt.engine.core.dal.dbbroker.DbFacade.getInstance ( ) . METHOD_4 ( ) . METHOD_5 ( TYPE_2 . getParameters ( ) . METHOD_6 ( ) ) ) ; } 
+protected java.util.Map < java.lang.String , java.lang.String > METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( TYPE_2 . name ( ) . METHOD_3 ( ) , TYPE_3 . METHOD_4 ( ) ) ; } 
+public void onSuccess ( java.util.List < TYPE_1 > returnValue ) { VAR_1 = returnValue ; } 
+public TYPE_1 url ( java.lang.String url ) throws TYPE_2 { this . url = url ; this . VAR_1 = METHOD_1 ( url ) ; return this ; } 
+public void METHOD_1 ( ) { final java.lang.String VAR_2 = VAR_1 . METHOD_2 ( ) ; TYPE_3 . assertEquals ( STRING_1 , VAR_2 ) ; } 
+protected TYPE_1 METHOD_1 ( ) { return new TYPE_1 ( VAR_1 , VAR_2 , VAR_3 ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { super . METHOD_1 ( ) ; org.mockito.Mockito.when ( METHOD_4 ( ) . getId ( ) ) . thenReturn ( VAR_2 ) ; } 
+public TYPE_1 METHOD_1 ( org.ovirt.engine.core.compat.Guid vmId , org.ovirt.engine.core.compat.Guid VAR_1 , java.lang.String VAR_2 ) { return METHOD_1 ( vmId , VAR_1 , true , false , VAR_2 , false ) ; } 
+public void METHOD_1 ( java.lang.String value ) { if ( ! ( TYPE_1 . METHOD_2 ( VAR_1 . METHOD_3 ( ) , value ) ) ) { VAR_1 . METHOD_1 ( value ) ; } } 
+public java.util.List < TYPE_1 > METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 ) { TYPE_2 VAR_2 = METHOD_2 ( ) . addValue ( STRING_1 , VAR_1 ) ; return METHOD_3 ( ) . METHOD_4 ( STRING_2 , VAR_4 , VAR_2 ) ; } 
+public void METHOD_1 ( java.util.Map < java.lang.String , java.lang.String > VAR_1 ) { this . VAR_1 = VAR_1 ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.common.businessentities.network.Network network ) { return network . getId ( ) . equals ( VAR_1 . METHOD_2 ( ) ) ; } 
+public void METHOD_1 ( ) { VAR_1 = new TYPE_1 ( ) ; } 
+public void onSuccess ( java.lang.Object target , java.lang.Object returnValue ) { TYPE_1 VAR_1 = ( ( TYPE_1 ) ( target ) ) ; VAR_3 = ( ( org.ovirt.engine.core.common.businessentities.VDS ) ( returnValue ) ) ; VAR_1 . METHOD_1 ( ) ; } 
+private org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface METHOD_1 ( java.lang.String VAR_1 , java.lang.String VAR_2 ) { return METHOD_2 ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) , VAR_1 , false , null , null , VAR_2 , true , null ) ; } 
+public void METHOD_1 ( final org.ovirt.engine.core.common.businessentities.VM value ) { vm = value ; } 
+public void METHOD_1 ( ) { TYPE_1 VAR_1 = new TYPE_1 ( ) ; assertEquals ( TYPE_2 . METHOD_2 ( VAR_1 ) , VAR_3 ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( false ) ; VAR_1 . METHOD_3 ( nic , null ) ; } 
+public java.util.Map < java.lang.String , java.lang.Object > METHOD_1 ( ) { return VAR_1 ; } 
+public void METHOD_1 ( java.lang.String value ) { parameters = value ; } 
+protected void METHOD_1 ( ) { METHOD_2 ( ) ; METHOD_5 ( ) ; VAR_1 = TYPE_1 . METHOD_3 ( ) . METHOD_4 ( VAR_2 ) ; TYPE_1 . METHOD_6 ( ) ; TYPE_2 . METHOD_7 ( vm . METHOD_8 ( ) , VAR_3 ) ; } 
+public org.ovirt.engine.core.compat.Guid METHOD_3 ( ) { return TYPE_2 . getVm ( ) . METHOD_3 ( ) ; } 
+public void METHOD_1 ( int VAR_1 , TYPE_1 model , java.lang.Boolean value ) { model . METHOD_2 ( value ) ; METHOD_3 ( ) ; } 
+public void onSuccess ( java.lang.Integer returnValue ) { VAR_1 = returnValue ; METHOD_1 ( ) ; METHOD_2 ( ) ; } 
+private void METHOD_1 ( ) { METHOD_2 ( TYPE_1 . METHOD_3 ( ) ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( new TYPE_1 . DiskImage ( ) ) ; METHOD_3 ( false ) ; command . METHOD_5 ( ) . METHOD_6 ( VAR_1 ) ; TYPE_2 . METHOD_7 ( command , VAR_2 ) ; } 
+public void onSuccess ( java.lang.Object model , java.lang.Object result ) { METHOD_2 ( ( ( java.util.List < TYPE_1 > ) ( result ) ) ) ; } 
+private java.lang.String METHOD_1 ( ) { return METHOD_2 ( ) . METHOD_1 ( ) ; } 
+public java.util.List < TYPE_1 > METHOD_1 ( org.ovirt.engine.core.compat.Guid vmId ) { TYPE_2 VAR_1 = METHOD_2 ( ) . addValue ( STRING_1 , vmId ) ; return METHOD_3 ( ) . METHOD_4 ( STRING_2 , VAR_3 , VAR_1 ) ; } 
+public void onSuccess ( java.lang.Object model , java.lang.Object returnValue ) { java.util.List < org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface > VAR_1 = ( ( java.util.List < org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface > ) ( ( ( TYPE_1 . VdcQueryReturnValue ) ( returnValue ) ) . getReturnValue ( ) ) ) ; VAR_2 = VAR_1 ; } 
+public java.lang.String METHOD_1 ( org.ovirt.engine.core.compat.Guid VAR_1 , org.ovirt.engine.core.common.businessentities.network.Network VAR_2 , org.ovirt.engine.core.compat.Guid vmId ) ; 
+public void METHOD_1 ( ) { long VAR_1 = INT_1 ; long VAR_2 = TYPE_1 . METHOD_2 ( VAR_1 , VAR_3 , VAR_4 ) . METHOD_3 ( ) ; TYPE_2 . assertEquals ( INT_2 , VAR_2 ) ; } 
+protected void METHOD_1 ( TYPE_1 VAR_1 , TYPE_2 VAR_2 ) { TYPE_3 . METHOD_1 ( VAR_2 ) ; } 
+public TYPE_1 get ( org.ovirt.engine.core.compat.Guid id ) { TYPE_2 VAR_1 = METHOD_1 ( ) . addValue ( STRING_1 , id ) ; return METHOD_2 ( ) . METHOD_3 ( STRING_2 , TYPE_3 . instance , VAR_1 ) ; } 
+public void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( null ) ; TYPE_2 . METHOD_3 ( STRING_1 , VAR_1 . METHOD_4 ( VAR_2 , VAR_3 ) ) ; TYPE_2 . METHOD_5 ( STRING_2 , VAR_1 . METHOD_6 ( VAR_2 , false ) ) ; } 
+public void onSuccess ( TYPE_2 . VdcQueryReturnValue returnValue ) { setItems ( ( ( java.util.List < TYPE_1 > ) ( returnValue . getReturnValue ( ) ) ) ) ; } 
+public void METHOD_1 ( int VAR_1 , org.ovirt.engine.core.common.businessentities.StorageDomain storageDomain , java.lang.String value ) { VAR_2 . METHOD_2 ( true ) ; } 
+public org.ovirt.engine.ui.uicommonweb.UICommand METHOD_1 ( boolean value ) { if ( ( VAR_1 ) != value ) { VAR_1 = value ; if ( value ) { METHOD_2 ( ) . METHOD_3 ( ) ; } METHOD_4 ( new TYPE_1 ( STRING_1 ) ) ; } return this ; } 
+private void METHOD_1 ( ) { METHOD_2 ( ) ; METHOD_3 ( ) ; } 
+private void METHOD_1 ( org.ovirt.engine.ui.uicommonweb.models.EntityModel < java.lang.Integer > entity , java.lang.Integer VAR_1 ) { entity . METHOD_2 ( new TYPE_1 [ ] { new TYPE_3 ( 0 , VAR_1 ) } ) ; } 
+public boolean METHOD_1 ( org.ovirt.engine.core.common.businessentities . Network VAR_1 ) { return VAR_1 . METHOD_2 ( ) . equals ( VAR_2 . getName ( ) ) ; } 
+protected void METHOD_1 ( ) { METHOD_2 ( ) ; METHOD_3 ( ) . METHOD_4 ( METHOD_5 ( ) ) ; getReturnValue ( ) . METHOD_6 ( true ) ; } 
+private void METHOD_1 ( ) { final TYPE_1 VAR_1 = TYPE_2 . METHOD_2 ( ) ; VAR_1 . METHOD_3 ( TYPE_2 . METHOD_4 ( ) ) ; VAR_2 . METHOD_5 ( VAR_1 ) ; } 
+public TYPE_1 METHOD_1 ( ) throws TYPE_2 { if ( this . client . METHOD_2 ( ) ) { return this . client ; } this . client . METHOD_3 ( ) ; return this . client ; } 
+public void validate ( ) { METHOD_1 ( ) ; } 
+private void METHOD_1 ( org.ovirt.engine.core.common.businessentities.network.Network VAR_2 ) { if ( VAR_2 != null ) { METHOD_2 ( ) . setSelectedItem ( VAR_2 ) ; } } 
+private void METHOD_1 ( ) { cmd . METHOD_2 ( ) ; org.mockito.Mockito.doReturn ( VAR_2 ) . when ( cmd ) . METHOD_4 ( ) ; } 
+public java.lang.Object Convert ( java.lang.Object source , org.ovirt.engine.ui.frontend.AsyncQuery _asyncQuery ) { return source != null ? source : java.lang.Boolean . TRUE ; } 
+public TYPE_1 getStoragePoolId ( ) { return ( METHOD_1 ( ) ) != null ? METHOD_1 ( ) . getStoragePoolId ( ) : null ; } 
+public void METHOD_1 ( org.ovirt.engine.core.compat.Guid vmId ) { org.ovirt.engine.core.common.businessentities.VM vm = org.ovirt.engine.core.dal.dbbroker.DbFacade.getInstance ( ) . METHOD_2 ( ) . get ( vmId ) ; if ( vm != null ) { METHOD_3 ( vm . getStoragePoolId ( ) , vm . METHOD_5 ( ) ) ; } } 
+public void onSuccess ( java.lang.String VAR_1 ) { METHOD_1 ( ) . setEntity ( VAR_1 ) ; } 
+public void METHOD_1 ( java.lang.String value ) { this . VAR_1 . METHOD_1 ( value ) ; } 
+private void METHOD_1 ( ) { org.mockito.Mockito.when ( VAR_1 . METHOD_2 ( ) ) . thenReturn ( VAR_2 ) ; } 
+protected void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( ) . METHOD_3 ( TYPE_1 . METHOD_4 ( ) ) ; } 
+public java.util.List < TYPE_1 > METHOD_1 ( java.lang.String VAR_1 ) { return METHOD_2 ( ) . METHOD_3 ( STRING_1 , TYPE_2 . instance , METHOD_4 ( ) . addValue ( STRING_2 , VAR_1 ) ) ; } 
+private void METHOD_1 ( ) { for ( org.ovirt.engine.core.compat.Guid TYPE_1 : VAR_1 ) { METHOD_1 ( TYPE_1 . toString ( ) , TYPE_1 . toString ( ) ) ; } } 
+public java.util.List < org.ovirt.engine.core.common.businessentities.VDS > METHOD_1 ( java.lang.String VAR_1 ) { return METHOD_3 ( ( ( VAR_2 ) + ( java.lang.String . METHOD_2 ( VAR_3 , VAR_1 ) ) ) ) ; } 
+public void METHOD_1 ( ) { org.ovirt.engine.core.common.businessentities.network.Network result = dao . METHOD_2 ( VAR_1 , VAR_2 ) ; TYPE_1 . METHOD_3 ( result ) ; TYPE_1 . assertEquals ( VAR_1 , result . METHOD_4 ( ) ) ; } 
+public void METHOD_3 ( ) { METHOD_2 ( ) . METHOD_3 ( ) ; } 
+public void METHOD_1 ( java.lang.String VAR_1 , int VAR_2 ) { VAR_3 . METHOD_2 ( VAR_4 . METHOD_3 ( VAR_1 ) ) ; this . VAR_5 . METHOD_4 ( VAR_4 . METHOD_6 ( VAR_2 , VAR_1 ) ) ; } 

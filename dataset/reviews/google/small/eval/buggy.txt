@@ -1,0 +1,217 @@
+protected TYPE_1 METHOD_1 ( TYPE_2 < TYPE_3 > repo , com.google.gerrit.reviewdb.client.Account.Id VAR_1 ) throws java.lang.Exception { return METHOD_2 ( repo , null , VAR_1 , null , null , null ) ; } 
+private void METHOD_1 ( ) throws java.lang.Exception { TYPE_1 . METHOD_2 ( STRING_1 , STRING_2 , VAR_1 . METHOD_3 ( ) , STRING_3 , STRING_4 , STRING_5 , STRING_6 ) ; } 
+protected void METHOD_1 ( TYPE_1 query ) throws java.lang.Exception { try { METHOD_2 ( query ) . get ( ) ; org.junit.Assert . METHOD_3 ( ( STRING_1 + query ) ) ; } catch ( TYPE_2 e ) { } } 
+public void METHOD_1 ( final TYPE_1 event ) { TYPE_2 . display ( TYPE_3 . METHOD_2 ( VAR_1 ) , new TYPE_4 ( VAR_1 ) ) ; } 
+private TYPE_1 . ProjectConfig METHOD_1 ( ) throws java.lang.Exception { return METHOD_1 ( STRING_1 , true , true ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { TYPE_1 VAR_1 = VAR_2 . METHOD_2 ( ) ; TYPE_2 . METHOD_3 ( VAR_3 . METHOD_4 ( ) . METHOD_5 ( ) ) . METHOD_6 ( VAR_1 . METHOD_7 ( ) ) ; VAR_4 . METHOD_8 ( VAR_3 ) ; } 
+protected void METHOD_1 ( ) { factory ( VAR_1 . Factory class ) ; bind ( VAR_2 class ) . METHOD_2 ( VAR_3 ) ; } 
+public TYPE_1 user ( TYPE_2 user ) { return METHOD_1 ( ) . equals ( user ) ? this : METHOD_2 ( user ) . METHOD_3 ( cd , db ) ; } 
+java.lang.String delete ( ) ; 
+private void METHOD_1 ( TYPE_1 < TYPE_2 > req ) throws java.lang.Exception { try { req . get ( ) ; org.junit.Assert . METHOD_2 ( STRING_1 ) ; } catch ( TYPE_3 e ) { } } 
+protected final void METHOD_1 ( java.lang.String msg , TYPE_1 t ) { if ( VAR_1 . METHOD_2 ( ) ) { VAR_1 . METHOD_3 ( ( ( ( STRING_1 + ( VAR_2 ) ) + STRING_2 ) + msg ) , t ) ; } } 
+public void METHOD_1 ( final TYPE_1 event ) { METHOD_2 ( 1 ) ; } 
+protected void METHOD_1 ( final int VAR_1 ) { TYPE_1 VAR_2 ; TYPE_2 VAR_3 ; TYPE_3 VAR_4 ; METHOD_2 ( ( -- ( VAR_5 ) ) ) ; METHOD_3 ( ) ; synchronized ( VAR_6 ) { VAR_7 = true ; } super . METHOD_1 ( VAR_1 ) ; } 
+private static java.lang.String METHOD_1 ( java.lang.String VAR_1 ) { if ( ( VAR_1 . length ( ) ) < INT_1 ) { return VAR_1 ; } else { return ( VAR_1 . METHOD_2 ( 0 , INT_2 ) ) + STRING_1 ; } } 
+public void METHOD_1 ( ) { final int id = INT_1 ; final TYPE_1 p = new TYPE_1 ( id ) ; assertEquals ( id , p . METHOD_2 ( ) ) ; } 
+void METHOD_1 ( TYPE_1 VAR_1 , TYPE_2 VAR_2 ) { VAR_3 . METHOD_2 ( VAR_1 , VAR_2 ) ; } 
+private TYPE_1 METHOD_1 ( java.lang.String name , int VAR_1 , int VAR_2 , TYPE_2 VAR_3 , TYPE_3 < TYPE_4 . Result > VAR_4 ) { return new TYPE_1 ( VAR_5 , project , name , VAR_1 , VAR_2 , VAR_3 , VAR_4 ) ; } 
+protected void METHOD_1 ( java.lang.String VAR_1 ) { METHOD_2 ( VAR_2 . METHOD_3 ( ) ) ; METHOD_4 ( VAR_1 ) ; } 
+public void METHOD_1 ( final java.lang.String VAR_1 ) { if ( ( VAR_1 != null ) && ( ! ( VAR_1 . isEmpty ( ) ) ) ) { VAR_2 = VAR_1 ; } } 
+void METHOD_1 ( ) { if ( ( VAR_1 ) != null ) { for ( TYPE_1 VAR_2 : VAR_1 ) { VAR_2 . METHOD_2 ( ) ; } METHOD_3 ( ) . METHOD_4 ( ) ; VAR_1 = null ; VAR_3 = null ; } } 
+public void METHOD_1 ( ) throws java.lang.Exception { VAR_1 . METHOD_2 ( ( STRING_1 + ( VAR_2 ) ) ) ; VAR_3 . METHOD_3 ( ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { VAR_1 = VAR_2 . get ( new TYPE_1 . NameKey ( STRING_1 ) ) . METHOD_2 ( ) ; METHOD_3 ( ) ; METHOD_4 ( ) ; VAR_3 . METHOD_5 ( ) ; } 
+private TYPE_1 . ProjectConfig METHOD_1 ( org.eclipse.jgit.revwalk.RevCommit VAR_1 ) throws java.io.IOException , TYPE_2 { TYPE_1 . ProjectConfig cfg = new TYPE_1 . ProjectConfig ( new TYPE_3 . NameKey ( STRING_1 ) ) ; cfg . METHOD_2 ( db , VAR_1 ) ; return cfg ; } 
+private void METHOD_1 ( ) { if ( ( VAR_1 ) != null ) { VAR_1 . METHOD_2 ( ) ; VAR_1 = null ; METHOD_3 ( ) ; } VAR_2 . METHOD_4 ( cm . METHOD_5 ( ) , line ) ; METHOD_6 ( ) ; } 
+public static TYPE_1 < com.google.gerrit.reviewdb.client.Change , com.google.gerrit.reviewdb.client.Change . Id > METHOD_1 ( ) { return VAR_1 ; } 
+private void METHOD_1 ( java.lang.String msg ) { TYPE_1 p = new TYPE_1 ( ) ; p . message = msg ; VAR_1 . add ( p ) ; } 
+public java.lang.String METHOD_1 ( final java.lang.String VAR_1 ) { return STRING_1 + VAR_1 ; } 
+void METHOD_1 ( ) { TYPE_1 < TYPE_2 > VAR_1 = VAR_2 ; if ( VAR_1 != null ) { VAR_2 = null ; VAR_1 . onSuccess ( result ) ; result = null ; } } 
+public void METHOD_1 ( TYPE_1 VAR_1 ) throws TYPE_2 { try { VAR_2 . apply ( rsrc , VAR_1 ) ; } catch ( com.google.gwtorm.server.OrmException e ) { throw new TYPE_2 ( STRING_1 , e ) ; } } 
+public void METHOD_1 ( ) { METHOD_2 ( ) ; METHOD_3 ( ) ; TYPE_1 VAR_1 = METHOD_4 ( ) ; java.lang.String VAR_2 = VAR_1 . METHOD_5 ( STRING_1 , STRING_2 ) ; assertEquals ( STRING_3 , VAR_2 ) ; } 
+private TYPE_1 METHOD_1 ( java.lang.String VAR_1 , TYPE_2 ... args ) { return TYPE_3 . METHOD_1 ( changeId , VAR_1 , args ) ; } 
+protected void METHOD_1 ( final TYPE_1 VAR_1 ) { for ( final TYPE_2 . Id id : VAR_2 ) { add ( VAR_1 , id ) ; } } 
+private static long METHOD_1 ( long n , long VAR_1 ) { long VAR_2 = ( n + ( VAR_1 / 2 ) ) / VAR_1 ; return VAR_2 ; } 
+public TYPE_1 METHOD_1 ( TYPE_2 VAR_1 , TYPE_3 id ) throws TYPE_4 { TYPE_5 p = VAR_2 . get ( id . get ( ) ) ; if ( p == null ) { throw new TYPE_4 ( id ) ; } return new TYPE_1 ( p ) ; } 
+public TYPE_1 METHOD_1 ( com.google.gerrit.reviewdb.client.Change change ) { return new TYPE_1 ( args , change . getProject ( ) , change ) ; } 
+void delete ( TYPE_1 VAR_1 ) throws java.io.IOException { VAR_2 . METHOD_1 ( VAR_1 ) ; commit ( ) ; } 
+public boolean METHOD_1 ( final com.google.gerrit.reviewdb.client.Account VAR_1 ) { return METHOD_1 ( VAR_1 . getId ( ) ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { super . METHOD_1 ( ) ; db = METHOD_2 ( ) ; util = new TYPE_1 < org.eclipse.jgit.lib.Repository > ( db ) ; } 
+void METHOD_1 ( TYPE_1 VAR_1 , TYPE_2 VAR_2 ) { this . VAR_1 = VAR_1 ; this . VAR_2 = VAR_2 ; } 
+public static void display ( final TYPE_1 view ) { if ( ( VAR_1 ) != null ) { VAR_2 . METHOD_1 ( VAR_1 ) ; } VAR_1 = view ; VAR_2 . add ( VAR_1 , VAR_3 ) ; } 
+public void METHOD_1 ( ) { com.google.common.truth.Truth.assertThat ( ( ( TYPE_1 ) ( VAR_1 . METHOD_2 ( new com.google.gerrit.reviewdb.client.Project.NameKey ( STRING_1 ) ) ) ) ) . METHOD_3 ( ) ; } 
+private static void METHOD_1 ( TYPE_1 key , TYPE_2 VAR_1 , TYPE_3 VAR_2 ) throws TYPE_4 { if ( ( ( VAR_3 ) != ( VAR_4 ) ) && ( ( VAR_5 ) == null ) ) { throw new TYPE_4 ( ) ; } } 
+protected void METHOD_1 ( TYPE_1 result ) { METHOD_2 ( VAR_1 . METHOD_3 ( ) ) ; METHOD_4 ( VAR_2 . METHOD_5 ( ) ) ; VAR_2 = null ; } 
+protected void METHOD_1 ( ) { bind ( VAR_1 class ) ; METHOD_2 ( ) . to ( VAR_2 class ) ; factory ( VAR_3 . Factory class ) ; } 
+protected void METHOD_1 ( ) { bind ( VAR_1 class ) . METHOD_2 ( VAR_2 . ui ) ; bind ( VAR_3 class ) . METHOD_2 ( VAR_4 ) ; bind ( VAR_5 class ) . to ( VAR_6 class ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { TYPE_1 r = new TYPE_2 ( server , user ) . put ( STRING_1 ) ; org.junit.Assert.assertEquals ( VAR_1 , r . METHOD_2 ( ) ) ; } 
+private boolean METHOD_1 ( ) { return ( ( VAR_1 ) == null ) || ( ( VAR_1 . METHOD_2 ( ) ) <= ( VAR_2 . METHOD_3 ( ) . METHOD_4 ( ) . METHOD_2 ( ) ) ) ; } 
+static TYPE_1 create ( TYPE_1 . Key key , com.google.gerrit.reviewdb.client.Account.Id VAR_1 , java.lang.String email , java.lang.String VAR_2 , org.eclipse.jgit.lib.ObjectId VAR_3 ) { return new TYPE_2 ( key , VAR_1 , TYPE_3 . METHOD_1 ( email ) , TYPE_3 . METHOD_1 ( VAR_2 ) , VAR_3 ) ; } 
+java.lang.String METHOD_1 ( int id , java.lang.String path ) ; 
+public void METHOD_1 ( ) throws java.lang.Exception { group ( STRING_1 , STRING_2 ) ; org.junit.Assert . METHOD_2 ( METHOD_3 ( STRING_3 ) . isEmpty ( ) ) ; } 
+public void METHOD_1 ( TYPE_1 input ) throws TYPE_2 { try { VAR_1 . apply ( change , input ) ; } catch ( TYPE_2 | TYPE_3 e ) { throw new TYPE_2 ( STRING_1 , e ) ; } } 
+public void METHOD_1 ( ) throws java.lang.Exception { if ( ( VAR_1 ) != null ) { for ( TYPE_1 schema : VAR_1 ) { schema . close ( ) ; } VAR_1 = null ; } super . METHOD_1 ( ) ; } 
+private TYPE_1 . ProjectConfig METHOD_1 ( java.lang.String VAR_1 ) throws java.lang.Exception { return METHOD_1 ( VAR_1 , true , true ) ; } 
+public static TYPE_1 METHOD_1 ( java.util.Map < java.lang.String , TYPE_2 > VAR_1 , int VAR_2 ) { return new TYPE_1 ( VAR_1 , VAR_2 ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { METHOD_2 ( db ) ; } 
+private static TYPE_1 revision ( com.google.gerrit.reviewdb.client.PatchSet.Id id , java.lang.String type ) { return TYPE_2 . revision ( id ) . view ( type ) ; } 
+public static void METHOD_1 ( TYPE_1 req , TYPE_2 . HttpServletResponse res , int VAR_1 , java.lang.String msg , TYPE_3 err ) throws java.io.IOException { TYPE_4 . METHOD_1 ( req , res , VAR_1 , msg , VAR_2 , err ) ; } 
+protected void METHOD_1 ( ) { bind ( VAR_1 class ) . METHOD_2 ( VAR_2 class ) . METHOD_3 ( VAR_3 ) ; bind ( VAR_4 class ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { org.eclipse.jgit.revwalk.RevCommit c = METHOD_2 ( ) ; java.util.List < TYPE_1 > m = TYPE_2 . METHOD_3 ( repo , c ) ; org.junit.Assert.assertEquals ( 0 , m . size ( ) ) ; } 
+public static TYPE_1 METHOD_1 ( short s ) { switch ( s ) { case 0 : return VAR_1 ; case 1 : return VAR_2 ; } return null ; } 
+public static void METHOD_1 ( int id , java.lang.String commit , TYPE_1 < TYPE_2 > VAR_1 ) { TYPE_3 . revision ( id , commit ) . delete ( VAR_1 ) ; } 
+public java.lang.String toString ( ) { return ( STRING_1 + ( METHOD_1 ( ) ) ) + STRING_2 ; } 
+public TYPE_1 < ? , java.io.IOException > METHOD_1 ( com.google.gerrit.reviewdb.client.Project.NameKey project , com.google.gerrit.reviewdb.client.Change . Id id ) { return ( VAR_1 ) != null ? submit ( new TYPE_2 ( project , id ) ) : VAR_2 < TYPE_3 , java.io.IOException > METHOD_2 ( null ) ; } 
+public static < TYPE_1 > TYPE_2 < TYPE_1 > METHOD_1 ( final TYPE_2 < TYPE_1 > ... VAR_1 ) { return new TYPE_3 < TYPE_1 > ( VAR_1 ) ; } 
+public static java.lang.String METHOD_1 ( com.google.gerrit.reviewdb.client.Account.Id VAR_1 ) { return TYPE_1 . METHOD_2 ( VAR_2 , VAR_1 ) . toString ( ) ; } 
+boolean METHOD_1 ( boolean VAR_1 ) { if ( TYPE_1 . equals ( VAR_2 ) ) { return VAR_3 . METHOD_2 ( ) ; } return METHOD_3 ( VAR_4 , VAR_1 ) ; } 
+public java.lang.String METHOD_1 ( ) { return ( ( TYPE_1 ) ( METHOD_2 ( ) ) ) . METHOD_3 ( ) . METHOD_4 ( VAR_1 . length ( ) ) ; } 
+public void METHOD_1 ( ) { new TYPE_1 ( VAR_1 , new TYPE_2 ( ) , METHOD_2 ( VAR_2 class ) ) ; } 
+boolean METHOD_1 ( ) { return ( METHOD_2 ( VAR_1 ) ) && ( METHOD_3 ( ) ) ; } 
+public TYPE_1 run ( TYPE_2 . ReviewDb db , TYPE_3 VAR_1 , boolean VAR_2 ) throws TYPE_4 . OrmException { return METHOD_1 ( VAR_3 , id , db , VAR_1 ) ; } 
+protected TYPE_1 METHOD_1 ( TYPE_1 ctx ) { return ctx . METHOD_2 ( ctx . METHOD_3 ( ) , ctx . METHOD_4 ( ) ) ; } 
+public java.lang.String METHOD_1 ( ) { return VAR_1 . METHOD_1 ( VAR_1 . METHOD_2 ( TYPE_1 . METHOD_3 ( config . METHOD_4 ( ) ) ) , null ) ; } 
+protected TYPE_1 < TYPE_2 > METHOD_1 ( final java.lang.String VAR_1 ) { return java.util.Collections . METHOD_2 ( ) ; } 
+protected TYPE_1 METHOD_1 ( TYPE_2 < TYPE_3 > repo ) throws java.lang.Exception { return METHOD_1 ( repo , null , null , null , null , null ) ; } 
+public boolean METHOD_1 ( java.lang.String VAR_1 ) { if ( TYPE_1 . equals ( VAR_1 ) ) { return METHOD_2 ( ) ; } else { return ! ( METHOD_3 ( VAR_1 ) . isEmpty ( ) ) ; } } 
+void METHOD_1 ( java.lang.String VAR_1 , java.lang.String VAR_2 , java.lang.String name , java.util.List < java.lang.String > values ) ; 
+public void METHOD_1 ( TYPE_1 key , long VAR_1 , java.lang.String VAR_2 , java.util.List < java.lang.String > VAR_3 ) { } 
+public TYPE_1 METHOD_1 ( ) throws java.io.IOException , TYPE_2 { TYPE_3 path = METHOD_2 ( ) ; if ( path != null ) { try ( org.eclipse.jgit.lib.Repository repo = new TYPE_4 ( path ) ) { METHOD_1 ( repo ) ; } } return this ; } 
+private java.lang.String METHOD_1 ( java.lang.String VAR_1 ) { if ( type ( ) . METHOD_2 ( ) ) { return TYPE_1 . METHOD_3 ( type ( ) . METHOD_4 ( VAR_1 ) ) ; } else { return VAR_1 ; } } 
+public void put ( TYPE_1 VAR_1 , TYPE_2 VAR_2 ) { VAR_3 . put ( VAR_1 , VAR_2 ) ; } 
+private TYPE_1 METHOD_1 ( ) { if ( ( VAR_1 ) == null ) { VAR_1 = METHOD_2 ( TYPE_2 . METHOD_3 ( ) , TYPE_2 . METHOD_4 ( ) ) ; } return VAR_1 ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { project = new com.google.gerrit.reviewdb.client.Project.NameKey ( STRING_1 ) ; TYPE_1 . METHOD_2 ( VAR_1 , project . get ( ) ) ; METHOD_3 ( ) ; METHOD_4 ( ) ; } 
+public TYPE_1 file ( java.lang.String path ) { return VAR_1 . create ( VAR_2 . get ( ) . METHOD_1 ( revision , TYPE_2 . METHOD_2 ( path ) ) ) ; } 
+protected < TYPE_1 extends TYPE_2 > TYPE_3 < TYPE_1 > get ( TYPE_4 < TYPE_5 < TYPE_1 > > VAR_1 , java.lang.String name ) { return new TYPE_3 < TYPE_1 > ( view ( VAR_1 , VAR_2 , name ) ) ; } 
+protected < TYPE_1 extends TYPE_2 , TYPE_3 extends TYPE_2 > TYPE_4 < TYPE_1 , TYPE_3 > METHOD_1 ( final TYPE_5 < TYPE_6 < TYPE_1 , TYPE_3 > > type ) { return METHOD_1 ( TYPE_7 . get ( type ) ) ; } 
+private TYPE_1 METHOD_1 ( ) { TYPE_1 VAR_1 = VAR_2 . get ( ) ; return VAR_3 . METHOD_2 ( VAR_1 . METHOD_3 ( ) , VAR_1 . METHOD_4 ( ) ) ; } 
+private static void METHOD_1 ( TYPE_1 insert ) { TYPE_2 . METHOD_2 ( insert ) ; } 
+public int METHOD_1 ( ) { throw new TYPE_1 ( ) ; } 
+protected Project . NameKey METHOD_1 ( ) { return getChange ( ) . getProject ( ) ; } 
+protected static com.google.gerrit.server.query.change.ChangeData METHOD_1 ( TYPE_1 VAR_1 , com.google.gerrit.reviewdb.client.Change . Id id ) { return VAR_2 . create ( VAR_3 . get ( ) , id ) ; } 
+long METHOD_1 ( ) { return VAR_1 ; } 
+private final native TYPE_1 METHOD_1 ( int VAR_1 ) ; 
+private boolean METHOD_1 ( com.google.gerrit.reviewdb.server.ReviewDb db , org.eclipse.jgit.lib.Repository repo , org.eclipse.jgit.revwalk.RevCommit commit ) { if ( METHOD_2 ( ) ) { return true ; } else if ( METHOD_3 ( db , repo , commit ) ) { return true ; } return false ; } 
+void METHOD_1 ( TYPE_1 < TYPE_2 > e ) { VAR_1 . METHOD_2 ( e . getValue ( ) ) ; view . METHOD_3 ( VAR_1 . METHOD_2 ( ) ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { TYPE_1 . ProjectConfig cfg = VAR_1 . METHOD_2 ( project ) . METHOD_3 ( ) ; TYPE_2 . METHOD_4 ( cfg , VAR_2 , VAR_3 , STRING_1 ) ; METHOD_5 ( project , cfg ) ; } 
+private void METHOD_1 ( ) throws java.lang.Exception { METHOD_2 ( ) ; METHOD_3 ( VAR_1 , project , STRING_1 , false , VAR_2 ) ; } 
+void METHOD_1 ( com.google.gerrit.reviewdb.client.Change c ) { change = c ; } 
+protected void METHOD_1 ( TYPE_1 result ) { VAR_1 = true ; VAR_2 = result . METHOD_2 ( ) ; METHOD_3 ( result . METHOD_4 ( ) ) ; METHOD_5 ( info ) ; METHOD_6 ( ) ; } 
+public java.util.Set < java.lang.String > METHOD_1 ( ) { return cfg . METHOD_1 ( VAR_1 , VAR_2 ) ; } 
+public static void METHOD_1 ( com.google.gerrit.reviewdb.client.Project.NameKey name , TYPE_1 < TYPE_2 > VAR_1 ) { new TYPE_3 ( STRING_1 ) . id ( name . get ( ) ) . view ( STRING_2 ) . get ( VAR_1 ) ; } 
+public void METHOD_1 ( ) { org.junit.Assert.assertEquals ( STRING_1 , TYPE_1 . not ( TYPE_2 . METHOD_2 ( STRING_2 , STRING_3 ) ) . toString ( ) ) ; } 
+public static TYPE_1 METHOD_1 ( ) { return new TYPE_1 ( VAR_1 ) ; } 
+public synchronized TYPE_1 METHOD_1 ( java.lang.String name , TYPE_2 VAR_1 ) { TYPE_3 . METHOD_2 ( VAR_1 ) ; METHOD_3 ( name , VAR_1 ) ; return METHOD_4 ( name ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { METHOD_2 ( user ) ; TYPE_1 in = new TYPE_1 ( ) ; in . name = STRING_1 ; METHOD_3 ( in , VAR_1 class ) ; } 
+void METHOD_1 ( java.lang.String project , java.lang.String ref , int VAR_1 ) { TYPE_1 event = new TYPE_1 ( project , ref , VAR_1 ) ; METHOD_2 ( project , event ) ; } 
+java.lang.String METHOD_1 ( TYPE_1 req ) { if ( ( VAR_1 ) != null ) { return TYPE_2 . METHOD_2 ( req . METHOD_3 ( VAR_1 ) ) ; } else { return null ; } } 
+private TYPE_1 METHOD_1 ( ) { return VAR_1 . create ( TYPE_2 . of ( VAR_2 ) ) ; } 
+protected void METHOD_1 ( ) { install ( VAR_1 ) ; install ( cm ) ; install ( VAR_2 ) ; } 
+private TYPE_1 METHOD_1 ( TYPE_2 key ) throws TYPE_3 { return VAR_1 . get ( key ) ; } 
+public java.lang.String getName ( ) { return name . get ( ) ; } 
+protected java.lang.String getRefName ( ) { return TYPE_1 . METHOD_1 ( getChangeId ( ) ) ; } 
+void METHOD_1 ( TYPE_1 < TYPE_2 > e ) { VAR_1 . METHOD_2 ( e . getValue ( ) ) ; if ( ( view ) != null ) { view . METHOD_3 ( ) . METHOD_4 ( STRING_1 , VAR_1 . METHOD_2 ( ) ) ; } } 
+private final native void METHOD_1 ( java.lang.String VAR_1 ) ; 
+public void METHOD_1 ( final TYPE_1 config ) { this . config = config ; } 
+public void METHOD_1 ( final TYPE_1 event ) { TYPE_2 . display ( TYPE_3 . METHOD_2 ( revision . getParentKey ( ) , revision . getId ( ) ) ) ; } 
+public void METHOD_1 ( java.lang.Exception VAR_1 ) { TYPE_1 . error ( VAR_1 ) ; VAR_2 . METHOD_1 ( VAR_1 ) ; } 
+public void onSuccess ( final java.util.List < TYPE_1 . Branch > result ) { METHOD_1 ( true ) ; VAR_1 . display ( result ) ; VAR_1 . METHOD_2 ( true ) ; } 
+public boolean METHOD_1 ( ) { return METHOD_2 ( ) . METHOD_3 ( ) ; } 
+TYPE_1 delete ( java.lang.String VAR_1 ) throws java.io.IOException { return VAR_2 . METHOD_1 ( new TYPE_2 ( ( ( VAR_3 . METHOD_2 ( ) ) + VAR_1 ) ) , new TYPE_3 ( ) ) ; } 
+TYPE_1 < TYPE_2 > METHOD_1 ( TYPE_2 ... data ) { java.util.List < TYPE_2 > VAR_1 = TYPE_3 . METHOD_2 ( data ) ; return new TYPE_4 < TYPE_2 > ( VAR_1 ) ; } 
+public TYPE_1 METHOD_1 ( ) { return VAR_1 . METHOD_2 ( ) . METHOD_1 ( ) ; } 
+public TYPE_1 . AccountGroup METHOD_1 ( final java.lang.String VAR_1 ) { return VAR_2 . get ( new TYPE_2 . NameKey ( VAR_1 ) ) ; } 
+void apply ( TYPE_1 update ) throws com.google.gwtorm.server.OrmException { METHOD_1 ( update ) ; update . METHOD_2 ( message . getMessage ( ) ) ; METHOD_3 ( update ) ; METHOD_4 ( update ) ; } 
+protected TYPE_1 METHOD_1 ( TYPE_2 VAR_1 ) throws java.io.IOException { return new TYPE_1 ( VAR_2 . METHOD_1 ( VAR_1 ) . METHOD_2 ( ) ) ; } 
+public java.lang.String METHOD_1 ( final TYPE_1 . NameKey project ) { final TYPE_2 r = new TYPE_2 ( ) ; TYPE_3 . p ( r , project ) ; TYPE_3 . a ( r , STRING_1 ) ; return ( VAR_1 ) + r ; } 
+private static java.lang.String METHOD_1 ( TYPE_1 user ) { if ( user . METHOD_2 ( ) ) { return ( ( TYPE_2 ) ( user ) ) . getAccountId ( ) . toString ( ) ; } return user . toString ( ) ; } 
+public TYPE_1 apply ( TYPE_2 input ) { return VAR_1 . equals ( user . METHOD_1 ( ) ) ; } 
+public void run ( ) { this . METHOD_1 ( ) ; } 
+protected abstract TYPE_1 . Status METHOD_1 ( TYPE_2 VAR_1 , TYPE_3 VAR_2 ) throws com.google.gwtorm.server.OrmException , java.io.IOException ; 
+public java.util.List < TYPE_1 > run ( final com.google.gerrit.reviewdb.server.ReviewDb db ) throws com.google.gwtorm.server.OrmException { return METHOD_1 ( db , query , VAR_1 ) ; } 
+public TYPE_1 < ? , java.io.IOException > METHOD_1 ( com.google.gerrit.reviewdb.client.Change change ) { return ( VAR_1 ) != null ? submit ( new TYPE_2 ( change , false ) ) : VAR_2 < TYPE_3 , java.io.IOException > METHOD_2 ( null ) ; } 
+public void METHOD_1 ( ) { TYPE_1 . get ( ) . METHOD_2 ( VAR_1 , new TYPE_2 . Factory ( ) ) ; } 
+public void onSuccess ( TYPE_1 result ) { TYPE_2 . METHOD_1 ( VAR_1 ) ; METHOD_2 ( true ) ; } 
+public TYPE_1 METHOD_1 ( ) { return new TYPE_2 ( ( ( double ) ( this . VAR_1 ) ) ) ; } 
+private static java.lang.String url ( com.google.gerrit.reviewdb.client.PatchSet.Id ps , TYPE_1 info ) { return TYPE_2 . METHOD_1 ( null , ps , info . path ( ) ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { TYPE_1 in = new TYPE_1 ( ) ; in . name = STRING_1 ; TYPE_2 r = VAR_1 . put ( STRING_2 , in ) ; org.junit.Assert.assertEquals ( VAR_2 , r . METHOD_2 ( ) ) ; } 
+public void METHOD_1 ( TYPE_1 event , com.google.gerrit.reviewdb.server.ReviewDb db ) throws com.google.gwtorm.server.OrmException { METHOD_2 ( event , db ) ; } 
+public void METHOD_1 ( ) { METHOD_2 ( null ) ; METHOD_3 ( TYPE_1 . METHOD_4 ( ) ) ; METHOD_5 ( STRING_1 ) ; } 
+public static TYPE_1 change ( java.lang.String id ) { return new TYPE_1 ( STRING_1 ) . id ( id ) ; } 
+private java.util.List < TYPE_1 > METHOD_1 ( java.lang.String err , java.lang.Exception e ) { if ( VAR_1 ) { VAR_2 . error ( err , e ) ; return TYPE_2 . METHOD_2 ( ) ; } else { return TYPE_2 . METHOD_3 ( err ) ; } } 
+static TYPE_1 < com.google.gerrit.server.query.change.ChangeData > create ( TYPE_2 < com.google.gerrit.server.query.change.ChangeData > schema ) { if ( ( TYPE_3 . METHOD_1 ( schema ) ) == ( VAR_1 ) ) { return new TYPE_4 ( ) ; } return TYPE_1 . not ( new TYPE_3 ( VAR_2 ) ) ; } 
+public void METHOD_1 ( TYPE_1 ctx ) throws java.lang.Exception { ctx . METHOD_2 ( ) . METHOD_3 ( magicBranch . topic ) ; } 
+protected com.google.gerrit.reviewdb.client.Change METHOD_1 ( ) { return TYPE_1 . METHOD_1 ( project , VAR_1 ) ; } 
+public static TYPE_1 METHOD_1 ( java.lang.String VAR_1 ) { return VAR_1 != null ? TYPE_2 . METHOD_1 ( VAR_1 ) : null ; } 
+protected < TYPE_1 extends TYPE_2 > TYPE_3 < TYPE_1 > METHOD_1 ( TYPE_4 < TYPE_5 < TYPE_1 > > VAR_1 , java.lang.String name ) { return new TYPE_3 < TYPE_1 > ( view ( VAR_1 , VAR_2 , name ) ) ; } 
+public TYPE_1 get ( TYPE_2 input , TYPE_3 args ) throws com.google.gwtorm.server.OrmException { try { return VAR_1 . get ( input , args ) ; } catch ( java.io.IOException e ) { throw new com.google.gwtorm.server.OrmException ( e ) ; } } 
+public void onSuccess ( TYPE_1 VAR_1 ) { TYPE_2 . METHOD_1 ( VAR_1 ) ; } 
+public void METHOD_1 ( final TYPE_1 . PatchSet ps ) { patchSet = ps ; } 
+public void METHOD_1 ( ) { VAR_1 . METHOD_2 ( VAR_2 ) ; VAR_2 . METHOD_3 ( VAR_1 ) ; } 
+protected void METHOD_1 ( ) { super . METHOD_1 ( ) ; METHOD_2 ( TYPE_1 . METHOD_3 ( ) ) ; METHOD_4 ( ) ; VAR_1 = new TYPE_2 ( true , VAR_2 ) ; add ( VAR_1 ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { VAR_1 . METHOD_2 ( VAR_2 class ) ; VAR_3 . projects ( ) . name ( project . get ( ) ) . METHOD_3 ( STRING_1 ) . get ( ) ; } 
+private TYPE_1 METHOD_1 ( final TYPE_2 VAR_1 ) throws TYPE_3 , TYPE_4 { return VAR_2 . create ( VAR_1 , db , repo , rw , VAR_3 , VAR_4 , METHOD_2 ( VAR_5 ) , VAR_6 , VAR_7 . METHOD_3 ( ) ) ; } 
+void METHOD_1 ( TYPE_1 VAR_1 , int line , TYPE_2 group ) { TYPE_3 < TYPE_4 , TYPE_5 > VAR_2 = METHOD_2 ( VAR_1 ) ; if ( ( VAR_2 . get ( line ) ) == group ) { VAR_2 . METHOD_3 ( line ) ; } } 
+public void METHOD_1 ( ) { try { VAR_1 . METHOD_2 ( ) ; } finally { plugins . METHOD_1 ( name , VAR_1 ) ; } } 
+private TYPE_1 METHOD_1 ( java.lang.String VAR_1 , TYPE_2 ... args ) { return new TYPE_1 ( ( ( ( STRING_1 + ( change.getId ( ) ) ) + STRING_2 ) + ( java.lang.String.format ( VAR_1 , args ) ) ) ) ; } 
+public final boolean METHOD_1 ( ) { METHOD_2 ( ) ; METHOD_3 ( ) ; return METHOD_4 ( ) ; } 
+public static void METHOD_1 ( final TYPE_1 . Account VAR_1 ) { synchronized ( VAR_2 ) { VAR_2 . METHOD_2 ( VAR_1 . METHOD_3 ( ) ) ; } } 
+TYPE_1 create ( com.google.gerrit.reviewdb.server.ReviewDb VAR_1 , org.eclipse.jgit.lib.Repository db ) ; 
+public void METHOD_1 ( TYPE_1 VAR_1 ) { VAR_2 . METHOD_2 ( VAR_3 . METHOD_3 ( ) ) ; METHOD_4 ( ( ! ( METHOD_5 ( ) ) ) ) ; METHOD_6 ( ) ; } 
+private static void METHOD_1 ( TYPE_1 VAR_1 , org.eclipse.jgit.lib.Repository repo ) throws java.io.IOException { org.eclipse.jgit.revwalk.RevWalk rw = new org.eclipse.jgit.revwalk.RevWalk ( repo ) ; try { VAR_1 . METHOD_1 ( rw , VAR_2 ) ; } finally { rw . METHOD_2 ( ) ; } } 
+public void submit ( TYPE_1 in ) throws TYPE_2 { try { submit . get ( ) . apply ( revision , in ) ; } catch ( com.google.gwtorm.server.OrmException | java.io.IOException e ) { throw new TYPE_2 ( STRING_1 , e ) ; } } 
+public java.lang.String toString ( ) { return VAR_1 ; } 
+public java.util.List < TYPE_1 > METHOD_1 ( ) { return java.util.Collections . METHOD_2 ( TYPE_2 . METHOD_3 ( VAR_1 ) ) ; } 
+public TYPE_1 < com.google.gerrit.reviewdb.client.Account.Id > METHOD_1 ( java.lang.String VAR_1 ) throws java.lang.Exception { return TYPE_1 . METHOD_2 ( VAR_2 . get ( TYPE_2 . create ( VAR_3 , VAR_1 ) ) ) . METHOD_3 ( TYPE_3 : : METHOD_4 ) ; } 
+public TYPE_1 create ( com.google.gerrit.reviewdb.client.Change change ) ; 
+public TYPE_1 METHOD_1 ( com.google.gerrit.reviewdb.client.Project.NameKey projectName ) throws java.io.IOException ; 
+public TYPE_1 METHOD_1 ( ) throws com.google.gwtorm.server.OrmException { final com.google.gerrit.reviewdb.server.ReviewDb c = METHOD_2 ( ) ; try { return c . METHOD_3 ( ) . get ( new TYPE_1 . Key ( ) ) ; } finally { c . close ( ) ; } } 
+public void METHOD_1 ( java.lang.String msg ) { status = VAR_1 ; VAR_2 = true ; } 
+public static void METHOD_1 ( int changeId , java.lang.String revision , TYPE_1 < TYPE_2 > VAR_1 ) { TYPE_3 . revision ( changeId , revision ) . view ( STRING_1 ) . METHOD_2 ( STRING_2 ) . get ( VAR_1 ) ; } 
+public void METHOD_1 ( TYPE_1 res , TYPE_2 VAR_1 , boolean VAR_2 ) ; 
+private TYPE_1 METHOD_1 ( TYPE_2 cm , int line ) { TYPE_3 VAR_1 = METHOD_2 ( cm ) ; TYPE_4 info = TYPE_4 . create ( path , VAR_1 , ( line + 1 ) , null , null ) ; return METHOD_3 ( info , false ) ; } 
+protected java.lang.String getRefName ( ) { return TYPE_1 . METHOD_1 ( VAR_1 , getChange ( ) . getId ( ) ) ; } 
+public void onSuccess ( TYPE_1 result ) { if ( METHOD_1 ( ) ) { VAR_1 = new TYPE_2 < java.lang.String > ( VAR_2 ) ; METHOD_2 ( ) ; } } 
+java.lang.String METHOD_1 ( int id , java.lang.String file ) ; 
+public synchronized void METHOD_1 ( com.google.gerrit.reviewdb.client.Account.Id VAR_1 ) { VAR_2 . METHOD_2 ( VAR_1 ) ; } 
+public TYPE_1 create ( TYPE_2 VAR_1 , com.google.gerrit.reviewdb.client.Account.Id id ) { return new TYPE_1 ( VAR_2 , VAR_3 , VAR_4 , VAR_5 , VAR_6 , VAR_7 , VAR_8 , VAR_9 , VAR_10 , TYPE_3 . of ( VAR_1 ) , null , id , null ) ; } 
+private void METHOD_1 ( ) { METHOD_2 ( ) ; if ( ( METHOD_3 ( ) ) != null ) { VAR_1 . append ( STRING_1 ) ; VAR_1 . append ( METHOD_3 ( ) ) ; VAR_1 . append ( STRING_2 ) ; } } 
+TYPE_1 create ( TYPE_2 . NameKey projectName , org.eclipse.jgit.lib.ObjectId base , java.util.List < TYPE_3 > VAR_1 , java.lang.String message ) ; 
+TYPE_1 create ( TYPE_2 VAR_1 , boolean VAR_2 ) ; 
+public TYPE_1 < TYPE_2 , java.io.IOException > METHOD_1 ( com.google.gerrit.reviewdb.client.Change change ) { return TYPE_3 . METHOD_2 ( VAR_1 . submit ( new TYPE_4 ( VAR_2 , change ) ) , VAR_3 ) ; } 
+public void onSuccess ( TYPE_1 VAR_1 ) { VAR_2 . onSuccess ( TYPE_2 . METHOD_1 ( VAR_1 . METHOD_2 ( ) ) ) ; } 
+public static TYPE_1 METHOD_1 ( ) { return TYPE_2 . METHOD_2 ( VAR_1 ) ; } 
+protected void METHOD_1 ( ) { bind ( VAR_1 class ) . to ( VAR_2 class ) ; bind ( VAR_3 class ) ; bind ( VAR_4 class ) ; METHOD_2 ( ) . to ( VAR_4 class ) ; factory ( VAR_5 . Factory class ) ; } 
+public void METHOD_1 ( ) throws java.lang.Exception { repo = new TYPE_1 < TYPE_2 > ( new TYPE_3 ( new TYPE_4 ( STRING_1 ) ) ) ; servlet = TYPE_5 . create ( repo ) ; } 
+private int METHOD_1 ( java.lang.String name , java.lang.String VAR_1 , int VAR_2 ) { return config . METHOD_1 ( STRING_1 , name , VAR_1 , VAR_2 ) ; } 
+protected void METHOD_1 ( final java.util.List < TYPE_1 . AccountGroup > result ) { VAR_1 . display ( result ) ; VAR_1 . METHOD_2 ( true ) ; } 
+protected < TYPE_1 > TYPE_1 METHOD_1 ( java.lang.String path , TYPE_2 < TYPE_1 > VAR_1 ) throws java.lang.Exception { return new TYPE_3 ( ) . METHOD_2 ( METHOD_3 ( path , STRING_1 ) , VAR_1 ) ; } 
+public void onSuccess ( TYPE_1 result ) { TYPE_2 . METHOD_1 ( getValue ( ) ) ; METHOD_2 ( true ) ; } 
+private static native java.lang.String METHOD_1 ( TYPE_1 ctx , java.lang.String VAR_1 , java.lang.String VAR_2 , int VAR_3 ) ; 
+void METHOD_1 ( TYPE_1 event , com.google.gerrit.reviewdb.server.ReviewDb db ) throws com.google.gwtorm.server.OrmException ; 
+private static TYPE_1 METHOD_1 ( TYPE_1 i ) { TYPE_1 VAR_1 = new TYPE_1 ( ) ; TYPE_2 . METHOD_2 ( i , VAR_1 ) ; return VAR_1 ; } 
+private void METHOD_1 ( TYPE_1 notes , TYPE_2 VAR_1 ) throws java.lang.Exception { com.google.common.truth.Truth.assertThat ( VAR_2 . METHOD_2 ( METHOD_3 ( notes ) , VAR_1 ) . METHOD_4 ( ) ) . isEmpty ( ) ; } 
+public void METHOD_1 ( ) { final TYPE_1 b = new TYPE_1 ( ) ; METHOD_2 ( b , b . METHOD_3 ( ) ) ; assertEquals ( STRING_1 , b . METHOD_4 ( ) ) ; } 
+public void METHOD_1 ( ) { super . METHOD_1 ( ) ; METHOD_2 ( true ) ; } 
+public void METHOD_1 ( ) { try { TYPE_1 . METHOD_2 ( VAR_1 . METHOD_3 ( ) , new TYPE_2 ( ) ) ; } catch ( java.io.IOException e ) { VAR_2 . METHOD_4 ( STRING_1 , e ) ; } } 
+TYPE_1 create ( TYPE_2 . ReviewDb VAR_1 , TYPE_3 . NameKey VAR_2 , TYPE_4 . Repository VAR_3 , TYPE_5 . RevCommit VAR_4 , TYPE_2 . PatchSet VAR_5 , boolean VAR_6 ) ; 
+private org.eclipse.jgit.revwalk.RevWalk METHOD_1 ( ) throws java.io.IOException { METHOD_2 ( ) ; return VAR_1 ; } 
+public void METHOD_1 ( final TYPE_1 event ) { METHOD_2 ( ( - 1 ) ) ; } 
+protected TYPE_1 METHOD_1 ( ) throws java.lang.Exception { return new TYPE_2 ( TYPE_3 . METHOD_2 ( ) ) ; } 
+private TYPE_1 METHOD_1 ( int VAR_1 ) throws java.lang.Exception { TYPE_1 d = new TYPE_1 ( ) ; d . METHOD_1 ( repo ) ; com.google.common.truth.Truth.assertThat ( d . getValue ( ) ) . isEqualTo ( VAR_1 ) ; return d ; } 
+public TYPE_1 get ( TYPE_2 key ) { TYPE_3 < TYPE_1 > VAR_1 = VAR_2 . get ( new TYPE_3 < TYPE_2 > ( key , VAR_3 ) ) ; return VAR_1 != null ? VAR_1 . METHOD_1 ( VAR_4 , VAR_5 ) : null ; } 
+TYPE_1 METHOD_1 ( TYPE_2 VAR_1 ) { this . VAR_1 = TYPE_3 . METHOD_2 ( VAR_1 , STRING_1 ) ; return this ; } 
+private boolean METHOD_1 ( org.eclipse.jgit.lib.ObjectId VAR_1 ) throws java.io.IOException { try ( org.eclipse.jgit.revwalk.RevWalk rw = new org.eclipse.jgit.revwalk.RevWalk ( repo ) ) { org.eclipse.jgit.revwalk.RevCommit commit = rw . parseCommit ( VAR_1 ) ; return VAR_2 . METHOD_2 ( db . get ( ) , rw , commit ) ; } } 
+protected TYPE_1 METHOD_1 ( TYPE_2 VAR_1 , int VAR_2 , int VAR_3 , java.util.Set < java.lang.String > VAR_4 ) { return TYPE_3 . METHOD_1 ( VAR_1 , VAR_2 , ( VAR_3 + 1 ) , VAR_4 ) ; } 
+com.google.gerrit.server.query.change.ChangeData METHOD_1 ( com.google.gerrit.reviewdb.client . PatchSetApproval t ) { return new com.google.gerrit.server.query.change.ChangeData ( t . METHOD_2 ( ) . getParentKey ( ) ) ; } 
+public TYPE_1 METHOD_1 ( java.lang.String VAR_1 ) { if ( TYPE_2 . METHOD_2 ( VAR_1 ) ) { return METHOD_3 ( VAR_1 , METHOD_4 ( VAR_1 ) ) ; } return null ; } 
+public void METHOD_1 ( boolean b ) { VAR_1 = false ; } 
+private boolean METHOD_1 ( ) { if ( ( VAR_1 ) <= ( VAR_2 ) ) { VAR_3 . METHOD_2 ( VAR_4 . METHOD_3 ( ) ) ; VAR_5 . METHOD_2 ( VAR_4 . METHOD_3 ( ) ) ; return false ; } return true ; } 
+public TYPE_1 apply ( TYPE_2 VAR_1 ) throws TYPE_3 , TYPE_4 , TYPE_5 , java.lang.Exception { return new TYPE_6 ( VAR_1 . METHOD_1 ( ) . METHOD_2 ( ) ) ; } 
+public static void METHOD_1 ( TYPE_1 view , TYPE_2 VAR_1 ) { view . METHOD_2 ( VAR_1 ) ; } 
+private final native void METHOD_1 ( int VAR_1 ) ; 
+public void METHOD_1 ( ) { TYPE_1 VAR_1 = TYPE_1 . METHOD_2 ( null ) ; org.junit.Assert.assertEquals ( STRING_1 , VAR_1 . METHOD_3 ( STRING_1 ) ) ; } 
+public TYPE_1 METHOD_1 ( TYPE_2 user ) { java.lang.String VAR_1 = user . METHOD_2 ( ) ; if ( TYPE_3 . METHOD_3 ( VAR_1 ) ) { return VAR_2 ; } else { return VAR_3 . get ( VAR_1 ) ; } } 
+public static void METHOD_1 ( java.lang.String VAR_1 , TYPE_1 < TYPE_2 > VAR_2 ) { TYPE_3 in = TYPE_3 . METHOD_2 ( ) ; new TYPE_4 ( STRING_1 ) . id ( VAR_1 ) . METHOD_3 ( ) . data ( in ) . put ( VAR_2 ) ; } 
+protected TYPE_1 user ( TYPE_2 VAR_1 ) { return VAR_2 . create ( TYPE_3 . of ( db ) , VAR_1 . getId ( ) ) ; } 
+private boolean METHOD_1 ( TYPE_1 event ) { return ( ! ( METHOD_2 ( event ) ) ) && ( ( event . getRefName ( ) . METHOD_3 ( VAR_1 ) ) || ( event . getRefName ( ) . METHOD_3 ( VAR_2 ) ) ) ; } 
+public static java.lang.String METHOD_1 ( java.lang.String type , TYPE_1 VAR_1 , TYPE_2 . Key id ) { return TYPE_3 . METHOD_1 ( type , VAR_1 , id . getParentKey ( ) , id . get ( ) , null , 0 ) ; } 
